@@ -1,0 +1,903 @@
+﻿<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  
+  <title>Übersicht: Zielgruppen-API</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">  
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-ultra.eot" type="font/eot">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-ultra.woff" type="font/woff">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-super.eot" type="font/eot">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-super.woff" type="font/woff">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-black.eot" type="font/eot">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-black.woff" type="font/woff">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-bold.eot" type="font/eot">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-bold.woff" type="font/woff">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-medium.eot" type="font/eot">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-medium.woff" type="font/woff">
+  <link data-react-helmet="true" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&amp;display=swap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/prism.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/styles.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/landing-page.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/tabs.css">
+  <link rel="stylesheet" href="/assets/css/local.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/381443caa8.js" crossorigin="anonymous"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/google-analytics.js"></script>
+  <script src="/assets/js/sajari-head.js"></script>
+</head>
+
+<body class="body">
+
+<header>
+  <div class="div-header">
+    <a href="/"><span class="product-logo" style="font-family:'Balto Web','Public Sans';font-size:2em;font-weight:bold;">BRIGHTCOVE ZIELGRUPPE<sup>™</sup></span></a>
+<!-- GTranslate: https://gtranslate.io/ -->
+<select onchange="doGTranslate(this);"><option value="">Sprache wählen</option><option value="en|en" translate="No">English</option><option value="en|zh-TW" translate="No">繁體中文</option><option value="en|fr" translate="No">Français</option><option value="en|de" translate="No">Deutsche</option><option value="en|ja" translate="No">日本語</option><option value="en|ko" translate="No">한국어</option><option value="en|es" translate="No">Español</option></select>
+
+<script>
+/* <![CDATA[ */
+function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+/* ]]> */
+</script>
+
+    <select id="site_select" class="bcls-select" style="margin-right: 1rem;">
+      <option value="">Weitere Brightcove Docs</option>
+      
+        
+          <option value="https://support.brightcove.com">Dokumentation Home</option>
+        
+      
+        
+          <option value="https://audience.support.brightcove.com">Brightcove Publikum</option>
+        
+      
+        
+          <option value="https://beacon.support.brightcove.com">Brightcove Leuchtfeuer</option>
+        
+      
+        
+          <option value="https://campaign.support.brightcove.com">Brightcove Kampagne</option>
+        
+      
+        
+          <option value="https://engage.support.brightcove.com">Brightcove Engage</option>
+        
+      
+        
+          <option value="https://live.support.brightcove.com">Brightcove Live</option>
+        
+      
+        
+          <option value="https://gallery.support.brightcove.com">Brightcove Gallery</option>
+        
+      
+        
+          <option value="https://ssai.support.brightcove.com">Brightcove SSAI</option>
+        
+      
+        
+          <option value="https://social.support.brightcove.com">Brightcove Social</option>
+        
+      
+        
+          <option value="https://studio.support.brightcove.com">Video Cloud Studio</option>
+        
+      
+        
+          <option value="https://player.support.brightcove.com">Brightcove Spieler-Entwicklung</option>
+        
+      
+        
+          <option value="https://apis.support.brightcove.com">APIs für Video Cloud-Plattform</option>
+        
+      
+        
+          <option value="https://sdks.support.brightcove.com">Videocloud-Geräte-SDKs</option>
+        
+      
+        
+          <option value="https://integrations.support.brightcove.com">Integrationen und CMS-Konnektoren</option>
+        
+      
+        
+          <option value="https://general.support.brightcove.com">Video Cloud — Allgemeine Informationen</option>
+        
+      
+        
+          <option value="https://zencoder.support.brightcove.com">Zencoder</option>
+        
+      
+    </select>
+
+
+    <span class="secondary-nav"><a href="https://supportportal.brightcove.com/s/login/?"><img src="https://support.brightcove.com/site-assets/images/site/support.png" alt="Support"/> Kontaktieren Sie Support</a> <span style="vertical-align: top;margin-left:1em;margin-right:1em;">|</span> <a href="https://status.brightcove.com/"><img src="https://support.brightcove.com/site-assets/images/site/status.png" alt="Systemstatus"/> Systemstatus</a></span> <br/>
+    
+  </div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb arr-right">
+      
+      <li class="breadcrumb-item"><a href="/">Nach Hause</a></li>
+      
+      
+      
+      <li class="breadcrumb-item"><a href="/develop/">Die Entwickler</a></li>
+      
+      <li class="breadcrumb-item active" aria-current="page">Übersicht: Zielgruppen-API</li>
+    </ol>
+  </nav>
+</header>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-3 left-side-bar">
+        <nav class="sidenav">
+          
+            
+            <h5><a href="/index.html">Nach Hause</a></h5>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/get-started/index.html">Erste Schritte <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/get-started/getting-started-audience-module.html">Erste Schritte mit Audience</a></li>
+                  
+                
+                  
+                    <li><a href="/get-started/audience-training-videos.html">Schulungsvideos Publikum</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/general/index.html">Allgemeine Informationen <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/general/audience-fields-and-data-definitions.html">Zielgruppenfelder und Datendefinitionen</a></li>
+                  
+                
+                  
+                    <li><a href="/general/configuring-audience-settings.html">Konfigurieren von Zielgruppen</a></li>
+                  
+                
+                  
+                    <li><a href="/general/creating-audience-enabled-player.html">Erstellen eines für Audience aktivierten Player</a></li>
+                  
+                
+                  
+                    <li><a href="/general/creating-audience-lead-form.html">Erstellen eines Audience Lead-Formulars</a></li>
+                  
+                
+                  
+                    <li><a href="/general/how-audience-module-identifies-viewers.html">Wie Zielgruppe Viewer identifiziert</a></li>
+                  
+                
+                  
+                    <li><a href="/general/publishing-video-email-using-audience-module.html">Veröffentlichen eines Videos per E-Mail</a></li>
+                  
+                
+                  
+                    <li><a href="/general/using-custom-metrics-and-events.html">Verwenden von benutzerdefinierten Metriken und Ereignissen</a></li>
+                  
+                
+                  
+                    <li><a href="/general/viewing-player-events-audience-module.html">Anzeigen von Spieler-Events</a></li>
+                  
+                
+                  
+                    <li><a href="/general/viewing-video-activity.html">Anzeigen von Videoaktivitäten</a></li>
+                  
+                
+                  
+                    <li><a href="/general/viewing-viewer-profile-information.html">Anzeigen von Viewer-Profilinformationen</a></li>
+                  
+                
+                  
+                    <li><a href="/general/working-utm-fields-audience-module.html">Arbeiten mit UTM-Feldern</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/integrations/index.html">Integrationen <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/integrations/eloqua/index.html"> <strong>Eloqua</strong></a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                        <li><a href="/integrations/eloqua/creating-custom-lead-forms-oracle-eloqua.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
+                        
+                        <li><a href="/integrations/eloqua/eloqua-integration-testing-guide.html">Eloqua Integrationstest Guide</a></li>
+                        
+                        <li><a href="/integrations/eloqua/embedding-video-cloud-video-eloqua-landing-page.html">Einbetten eines Videos auf einer Landingpage</a></li>
+                        
+                        <li><a href="/integrations/eloqua/integrating-video-cloud-oracle-eloqua.html">Integration mit Oracle Eloqua</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/integrations/hubspot/index.html">HubSpot <strong>+</strong></a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                        <li><a href="/integrations/hubspot/creating-custom-lead-forms-hubspot.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
+                        
+                        <li><a href="/integrations/hubspot/hubspot-rest-api-integration-testing-guide.html">HubSpot REST API-Testleitfaden</a></li>
+                        
+                        <li><a href="/integrations/hubspot/integrating-video-cloud-hubspot-using-client-side-apis.html">Integration mit HubSpot (clientseitige APIs)</a></li>
+                        
+                        <li><a href="/integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html">Integration mit HubSpot (REST APIs)</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/integrations/marketo/index.html">Marketo <strong>+</strong></a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                        <li><a href="/integrations/marketo/creating-custom-lead-forms-marketo.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
+                        
+                        <li><a href="/integrations/marketo/integrating-video-cloud-marketo-using-munchkin.html">Integration mit Marketo (Munchkin)</a></li>
+                        
+                        <li><a href="/integrations/marketo/integrating-video-cloud-marketo-using-rest-apis.html">Integration mit Marketo (REST APIs)</a></li>
+                        
+                        <li><a href="/integrations/marketo/marketo-rest-integration-testing-guide.html">Leitfaden zum Testen von Marketo-REST-Integrationen</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/integrations/non-map/index.html">Nicht-Mappe <strong>+</strong></a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                        <li><a href="/integrations/non-map/creating-custom-integrations-audience-module.html">Erstellen benutzerdefinierter Integrationen</a></li>
+                        
+                        <li><a href="/integrations/non-map/integrating-audience-single-sign.html">Integration mit Single Sign-On</a></li>
+                        
+                        <li><a href="/integrations/non-map/using-audience-module-track-viewers.html">Verwenden der Zielgruppe zum Verfolgen von Zuschau</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/integrations/salesforce/index.html">Salesforce <strong>+</strong></a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                        <li><a href="/integrations/salesforce/creating-custom-lead-forms-salesforce.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
+                        
+                        <li><a href="/integrations/salesforce/creating-custom-lead-forms-salesforce.html">Erstellen von Salesforce-Objekt für Pardot</a></li>
+                        
+                        <li><a href="/integrations/salesforce/integrating-video-cloud-salesforce.html">Integration mit Salesforce</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/admin/index.html">Verwaltung von Zielgruppen <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/admin/exporting-audience-data-audience-module.html">Exportieren von Daten aus Zielgruppe</a></li>
+                  
+                
+                  
+                    <li><a href="/admin/exporting-gallery-lead-data.html">Exportieren von Gallery Lead-Daten</a></li>
+                  
+                
+                  
+                    <li><a href="/admin/managing-viewer-data.html">Verwalten von Betrachterdaten</a></li>
+                  
+                
+                  
+                    <li><a href="/admin/troubleshooting-audience-issues.html">Fehlerbehebung bei</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/develop/index.html">Entwickler <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/develop/overview-audience-api.html">Übersicht: Zielgruppen-API</a></li>
+                  
+                
+                  
+                    <li><a href="/develop/reference.html">Publikums-API Referenz</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/support/index.html">unterstützung <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/support/brightcove-answer.html">Brightcove Antworten</a></li>
+                  
+                
+                  
+                    <li><a href="/support/viewing-brightcove-system-status-page.html">Anzeigen der Seite „Systemstatus von Brightcove“</a></li>
+                  
+                
+                  
+                    <li><a href="/support/contact-sales.html">Kontakt mit dem Vertrieb</a></li>
+                  
+                
+                  
+                    <li><a href="/support/opening-case-with-brightcove-support.html">Einen Supportfall öffnen</a></li>
+                  
+                
+              </ul>
+            
+          
+      </nav>
+    </div>
+    <div class="col-lg-7" style="background-color: white;color: #333333;margin-top: -1em;margin-bottom: -1em;padding-bottom:1em;">
+  <!-- bootstrap layout -->
+
+<p id="bc_veggie_burger_wrapper" style="display: none;"><img id="bc_veggie_burger" src="/assets/images/feather/menu.svg" alt="Menü „Navigation"/></p>
+
+<!-- search bar -->
+<div id="nav-search-box" style="margin-top: 1rem;"></div>
+<!-- in-page navigation for narrow screens -->
+<details class="centered-inpage-nav" id="centered_inpage_nav">
+  <summary><h6 class="toc">Inhalt der Seite</h6></summary>
+  <nav id="centered_toc"></nav>
+  <ul id="centered_in_page_toc" class="list-none"></ul>
+</details>
+<!-- open in new tab/window -->
+<a id="open_new_tab" href="#" target="_blank" style="display: none;"><img src="/assets/images/feather/external-link.svg" alt="in neuem Tab öffnen" style="margin-top:4em;width: 1.5em;"/></a>
+
+
+
+  
+    
+
+
+<article class="bcls-article">
+  <h1>Übersicht: Zielgruppen-API</h1>
+  <summary>In diesem Thema erfahren Sie mehr über die Audience API. Mit der Audience API können Sie Anzeigeereignis- und Lead-Daten abrufen.</summary>
+  <section class="bcls-section">
+    <h2 id="api-reference">API-Referenz</h2>
+    <p>Siehe auch die <a href="/develop/reference.html">API-Referenz</a>.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Base_URL">Basis-URL</h2>
+    <p>Die Basis-URL für die Audience API lautet:</p>
+    <pre class="line-numbers">
+<code class="language-http" translate="No">https://audience.api.brightcove.com/v1</code></pre>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Account_path">Konto-Pfad</h2>
+    <p>In allen Fällen werden Anfragen für ein bestimmtes Video Cloud-Konto gestellt. Sie müssen immer den Begriff „Konten“ gefolgt von Ihrer Konto-ID zur Basis-URL hinzufügen:</p>
+    <pre class="line-numbers">
+<code class="language-http" translate="No">https://audience.api.brightcove.com/v1/accounts/{account_id} </code></pre>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Authentication">Authentifizierung</h2>
+    <p>Die Audience API verwendet den Brightcove <a href="https://apis.support.brightcove.com/oauth/getting-started/overview-oauth-api-v4.html">OAuth Service</a> zur Authentifizierung von Anrufen.</p>
+    <p>Sie müssen zuerst Client-Anmeldeinformationen (a <code translate="No">client_id</code> und <code translate="No">client_secret</code> abrufen. Dies ist ein einmaliger Vorgang, der mit der <a href="https://studio.support.brightcove.com/admin/managing-api-authentication-credentials.html">Benutzeroberfläche von OAuth Credentials</a>durchgeführt werden kann. Sie benötigen Berechtigungen für Audience/Read-Vorgänge:</p>
+    <figure class="bcls-figure"><img class="bcls-image" alt="Erforderliche Berechtigungen" src="/assets/images/develop/operations.png"/>
+      <figcaption class="bcls-caption--image">Erforderliche Berechtigungen</figcaption>
+    </figure>
+    <p>Sie können Client-Anmeldeinformationen direkt vom Brightcove OAuth Service mit <a href="https://apis.support.brightcove.com/oauth/guides/oauth-create-client-credentials-using-curl.html">cURL</a> oder <a href="https://apis.support.brightcove.com/oauth/guides/oauth-create-client-credentials-using-postman.html">Postman</a>abrufen.</p>
+    <p>Sie benötigen auch ein <code translate="No">access_token</code>, das mit dem <code translate="No">client_id</code> und erhalten wird <code translate="No">client_secret</code> und in einem Authorization-Header mit Ihrer API-Anfrage übergeben wird:</p>
+    <pre class="line-numbers">
+<code class="language-http" translate="No">Authorization: Bearer <em>{access_token}</em></code></pre>
+    <p>Der <code translate="No">access_token</code> läuft nach fünf Minuten ab, Sie müssen also für jede Anfrage einen erhalten oder prüfen, ob Ihr Token noch gültig ist. Unter <a href="https://apis.support.brightcove.com/oauth/guides/getting-access-tokens.html">Zugriffstoken erhalten</a> finden Sie eine detaillierte Erklärung, wie Sie Zugriffstoken erhalten, einschließlich Codebeispiele.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Error_handling">Fehlerbehandlung</h2>
+    <p>Wenn ein Fehler auftritt, antwortet die API mit einem der folgenden Statuscodes und einem entsprechenden Fehlercode im Antworttext:</p>
+    <table class="bcls-table">
+      <thead class="bcls-table__head">
+        <tr>
+          <th>Status-Code</th>
+          <th>Fehlercode</th>
+          <th>Beschreibung</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td>400</td>
+          <td>BAD_REQUEST_FEHLER</td>
+          <td>Abfrageparameter sind ungültig</td>
+        </tr>
+        <tr>
+          <td>401</td>
+          <td>UNAUTORISIERT_ERROR</td>
+          <td>Das Zugriffstoken ist entweder nicht vorhanden, ist abgelaufen oder ist ungültig</td>
+        </tr>
+        <tr>
+          <td>404</td>
+          <td>RESOURCE_NOT_FOUND</td>
+          <td>Die URL existiert nicht</td>
+        </tr>
+        <tr>
+          <td>429</td>
+          <td>REQUEST_THROTTLED_ERROR</td>
+          <td>Der Benutzer hat die Rate Limiting Policy überschritten</td>
+        </tr>
+        <tr>
+          <td>500</td>
+          <td>INTERNAL_FEHLER</td>
+          <td>Ein interner Fehler ist aufgetreten</td>
+        </tr>
+        <tr>
+          <td>504</td>
+          <td>GATEWAY_TIMEOUT_FEHLER</td>
+          <td>Der Server hat das Zeitlimit überschritten, während Sie Ihre Anfrage erfüllen</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Im Folgenden finden Sie einen Beispielantworttext für einen Fehler:</p>
+    <pre class="line-numbers">
+<code class="language-json" translate="No">[
+   {
+    "error_code": "UNAUTHORIZED_ERROR",
+    "message": "Permission denied"
+   }
+]</code></pre>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Parameters">Parameter</h2>
+    <p>Es gibt mehrere Parameter, die Sie Anfragen hinzufügen können, um die abgerufenen Daten einzuschränken und zu filtern. Diese gelten für alle in den folgenden Abschnitten beschriebenen Anforderungstypen.</p>
+    <h3 id="Filtering_results">Ergebnisse filtern</h3>
+    <p>Sie können die Ergebnisse mithilfe des <code translate="No">where</code> Parameters filtern. Die Syntax für Filter lautet:</p>
+    <pre class="line-numbers">
+<code class="language-http" translate="No">where=field1==value1;field2==value2</code></pre>
+    <p>Beispiel:</p>
+    <pre class="line-numbers">
+<code class="language-http" translate="No">where=video_id==123456789;video_name==test</code></pre>
+    <p>Kommas werden als logische ORs und Semikolons als logische ANDs behandelt. Zum Beispiel <code translate="No">where=video_id==1234,5678;video_name=test</code> wird als „wo video_id = 1234 ODER 5678 UND video_name = test“ interpretiert.</p>
+    <h3>Auswählen von zurückzugebenden Feldern</h3>
+    <p>In der Anforderung kann eine Liste von Feldern angegeben werden, um die Ergebnisse auf diese Teilmenge von Feldern zu beschränken. Die Syntax für Felder lautet:</p>
+    <pre class="line-numbers">
+<code class="language-http" translate="No">fields=field1,field4</code></pre>
+    <p>Beispiel:</p>
+    <pre class="line-numbers">
+<code class="language-http" translate="No">fields=video_id,video_name</code></pre>
+    <p>Die Felder, nach denen Sie filtern und sortieren können, werden für jeden Anforderungstyp in den folgenden Abschnitten detailliert beschrieben.</p>
+    <h3 id="Date_ranges">Datum-Bereiche</h3>
+    <p>Datumsbereiche können in <code translate="No">from</code> und <code translate="No">to</code> Parameter angegeben werden und werden auf das Datum angewendet, an dem das View-Ereignis zuletzt aktualisiert wurde (das updated_at-Feld). Datumsbereiche können in den folgenden Formaten angegeben werden:</p>
+    <ul>
+      <li>Der Textwert <code translate="No">now</code> , der die aktuelle Uhrzeit darstellt</li>
+      <li>Epoch-Zeitwerte in Millisekunden, wie <code translate="No">1377047323000</code></li>
+      <li>Daten, die im internationalen Standarddatumsformat nach ISO 8601 ausgedrückt werden: <code translate="No">YYYY-MM-DD</code> Format, wie <code translate="No">2013-09-12</code>z. Für Daten, die in diesem Format ausgedrückt werden:
+        <ul>
+          <li>Jeder angegebene Datumsbereich wird in UTC interpretiert</li>
+          <li>Die Zeit für das angegebene Datum wird am angegebenen Datum als midnight ( <code translate="No">00:00:00</code>) interpretiert</li>
+        </ul>
+      </li>
+      <li>Relative Daten: Sie können eines der beiden ausdrücken <code translate="No">to</code> und <code translate="No">from</code> Werte relativ zum anderen in <code translate="No">d</code> (Tage), <code translate="No">h</code> (Std), <code translate="No">m</code> (Minuten) oder <code translate="No">s</code> (sek). Beispiel:
+        <ul>
+          <li><code class="language-http" translate="No">from=2015-01-01&amp;to=31d</code></li>
+          <li><code class="language-http" translate="No">from=-48h&amp;to=now</code></li>
+          <li><code class="language-http" translate="No">from=-2d&amp;to=now</code> ( wird die gleichen Ergebnisse wie im vorherigen Beispiel geben)</li>
+          <li><code class="language-http" translate="No">from=-365d&amp;to=2015-12-31</code></li>
+          <li><code class="language-http" translate="No">from=-10m&amp;to=now</code></li>
+        </ul>
+      </li>
+    </ul>
+    <h3 id="Paging_results">Paging-Ergebnisse</h3>
+    <p>Die <code translate="No">limit</code> ist die Anzahl der Artikel, die zurückgegeben werden sollen (Standard: 25; Maximum: 100). <code translate="No">offset</code> ist die Anzahl der zu überspringenden Elemente (Standard: 0). Sie können <code translate="No">limit</code> und <code translate="No">offset</code> zusammen verwenden, um eine App zu erstellen, die die Ergebnisse durchstößt. Jedes enthält die <code translate="No">limit</code> , <code translate="No">offset</code> , und <code translate="No">count.</code> , mit dem Sie die Iteration über die Gesamtergebnisse einrichten können. In JavaScript könnten Sie beispielsweise die insgesamt erforderlichen Iterationen wie folgt abrufen:</p>
+    <pre class="line-numbers">
+<code class="language-javascript" translate="No">// response is the JSON-parsed response from the first request
+var totalRequests = Math.ceil(response.count / response.limit)</code></pre>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Retrieving_view_events">Abrufen von View-Ereignissen</h2>
+    <p>Um View-Ereignisse in einem Konto abzurufen, führen Sie eine <code translate="No">GET</code> Anfrage an die Ressource view_events aus:</p>
+    <pre class="line-numbers">
+<code class="language-http" translate="No">https://audience.api.brightcove.com/v1/accounts/{account_id}/view_events</code></pre>
+    <aside class="bcls-aside bcls-aside--warning">Nur <em>verarbeitete</em> Ereignisse anzeigen werden in der Antwort angezeigt.</aside>
+    <p>Hier ist Beispielanfrage in cURL</p>
+    <pre class="line-numbers">
+<code class="language-bash" translate="No">curl -i https://audience.api.brightcove.com/v1/accounts/{account_id}/view_events?where=video_id==123&amp;from=-5d&amp;to=now&amp;sort=-created_at \
+  -H "Authorization: Bearer {token}"</code></pre>
+    <p>Die Antwort wird so aussehen:</p>
+    <pre class="line-numbers">
+<code class="language-json" translate="No">{
+    "count": 27,
+    "limit": 25,
+    "offset": 0,
+    "result": [
+        {
+            "created_at": "2016-04-25T18:30:21.651Z",
+            "page_url": "http://players.brightcove.net/1486906377/V1s6NOwRx_default/index.html?videoId=4842718056001",
+            "player_id": "V1s6NOwRx",
+            "time_watched": 2,
+            "updated_at": "2016-04-25T18:30:21.651Z",
+            "video_id": "4842718056001",
+            "video_name": "Horses Heading to the Track",
+            "watched": 19
+        },
+        {
+            "created_at": "2016-04-25T18:31:55.071Z",
+            "page_url": "http://players.brightcove.net/1486906377/BkgFuzyhg_default/index.html?videoId=4842718056001",
+            "player_id": "BkgFuzyhg",
+            "time_watched": 15,
+            "updated_at": "2016-04-25T18:32:00.879Z",
+            "video_id": "4842718056001",
+            "video_name": "Horses Heading to the Track",
+            "watched": 99
+        }, ...
+    }
+]</code></pre>
+    <h3 id="fieldsForViewEvents">Felder für Filterung und Auswahl</h3>
+    <p>Alle <a href="#Parameters">Parameter</a> können mit <code translate="No">view_event</code> Anfragen verwendet werden.</p>
+    <p>Hier ist eine Beispielanfrage in cURL mit den Parametern:</p>
+    <pre class="line-numbers">
+<code class="language-bash" translate="No">curl -i https://audience.api.brightcove.com/v1/accounts/{account_id}/view_events?where=video_id==123&amp;from=-5d&amp;to=now&amp;sort=-created_at \
+  -H "Authorization: Bearer {token}"</code></pre>
+    <p>Die folgenden Felder werden für <code translate="No">view_event</code> Anfragen beim Filtern mit einer <code translate="No">where</code> Klausel oder bei der Auswahl während einer <code translate="No">fields</code> Klausel unterstützt:</p>
+    <table class="bcls-table">
+      <thead class="bcls-table__head">
+        <tr>
+          <th>Feld</th>
+          <th>Beschreibung</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td>video_de</td>
+          <td>Brightcove Video-ID</td>
+        </tr>
+        <tr>
+          <td>video_name</td>
+          <td>Brightcove Videoname</td>
+        </tr>
+        <tr>
+          <td>tracking_id</td>
+          <td>Benutzerdefinierte Tracking-ID</td>
+        </tr>
+        <tr>
+          <td>external_de</td>
+          <td>Die Marketo, Eloqua oder benutzerdefinierte GUID</td>
+        </tr>
+        <tr>
+          <td>player_id</td>
+          <td>Die ID des Brightcove Spielers, der das View-Event erstellt hat</td>
+        </tr>
+        <tr>
+          <td>page_url</td>
+          <td>Die URL der Seite, auf der das View-Ereignis erstellt wurde</td>
+        </tr>
+        <tr>
+          <td>beobachtete</td>
+          <td>Prozent beobachtete</td>
+        </tr>
+        <tr>
+          <td>time_angeschaut</td>
+          <td>Sekunden des angeguckten Videos</td>
+        </tr>
+        <tr>
+          <td>created_at</td>
+          <td>Datum der Schöpfung</td>
+        </tr>
+        <tr>
+          <td>updated_at</td>
+          <td>Datum der letzten Aktualisierung</td>
+        </tr>
+        <tr>
+          <td>ist synchronisiert</td>
+          <td>Ein boolescher Wert, der angibt, ob das View-Ereignis synchronisiert wurde oder nicht</td>
+        </tr>
+        <tr>
+          <td>event_1</td>
+          <td rowspan="3">Individuelle Ereignisse</td>
+        </tr>
+        <tr>
+          <td>event_2</td>
+        </tr>
+        <tr>
+          <td>event_3</td>
+        </tr>
+        <tr>
+          <td>metric_1</td>
+          <td rowspan="3">Benutzerdefinierte Metriken</td>
+        </tr>
+        <tr>
+          <td>metric_2</td>
+        </tr>
+        <tr>
+          <td>metric_3</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Retrieving_Leads">Abrufen von Leads</h2>
+    <p>Um Ansichtsereignisse in einem Konto abzurufen, führen Sie eine <code translate="No">GET</code> Anfrage an die <code translate="No">view_events</code> Ressource durch:</p>
+    <pre class="line-numbers">
+<code class="language-http" translate="No">https://audience.api.brightcove.com/v1/accounts/{account_id}/leads</code></pre>
+    <p>Beispiel Antwort:</p>
+    <pre class="line-numbers">
+<code class="language-json" translate="No">{
+    "count": 2,
+    "limit": 25,
+    "offset": 0,
+    "result": [
+        {
+            "created_at": "2016-06-30T12:57:11.283Z",
+            "email_address": "bbailey@brightcove.com",
+            "first_name": "Bob",
+            "last_name": "Bailey",
+            "page_url": "http://players.brightcove.net/1486906377/Hk4TBqzL_default/index.html?videoId=4997275041001",
+            "player_id": "Hk4TBqzL",
+            "video_id": "4997275041001"
+        },
+        {
+            "created_at": "2016-06-30T12:57:33.301Z",
+            "email_address": "rcrooks@brightcove.com",
+            "first_name": "Robert",
+            "last_name": "Crooks",
+            "page_url": "http://players.brightcove.net/1486906377/Hk4TBqzL_default/index.html?videoId=4997275041001",
+            "player_id": "Hk4TBqzL",
+            "video_id": "4997275041001"
+        }
+    ]
+}</code></pre>
+    <h3 id="fieldsForLeads">Felder für Filterung und Auswahl</h3>
+    <p>Alle <a href="#Parameters">Parameter</a> können mit <code translate="No">leads</code> Anfragen verwendet werden.</p>
+    <p>Hier ist eine Beispielanfrage in cURL mit den Parametern:</p>
+    <pre class="line-numbers">
+<code class="language-bash" translate="No">curl -i https://audience.api.brightcove.com/v1/accounts/{account_id}/leads?where=video_id==123&amp;from=-5d&amp;to=now&amp;sort=-created_at \
+  -H "Authorization: Bearer {token}"</code></pre>
+    <p>Die folgenden Felder werden für <code translate="No">leads</code> Anfragen beim Filtern mit einer <code translate="No">where</code> Klausel oder bei der Auswahl während einer <code translate="No">fields</code> Klausel unterstützt:</p>
+    <table class="bcls-table">
+      <thead class="bcls-table__head">
+        <tr>
+          <th>Feld</th>
+          <th>Beschreibung</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td>video_de</td>
+          <td>Brightcove Video-ID</td>
+        </tr>
+        <tr>
+          <td>external_de</td>
+          <td>Die Marketo, Eloqua oder benutzerdefinierte GUID</td>
+        </tr>
+        <tr>
+          <td>player_id</td>
+          <td>Die ID des Brightcove Spielers, der das View-Event erstellt hat</td>
+        </tr>
+        <tr>
+          <td>page_url</td>
+          <td>Die URL der Seite, auf der das View-Ereignis erstellt wurde</td>
+        </tr>
+        <tr>
+          <td>created_at</td>
+          <td>Datum der Schöpfung</td>
+        </tr>
+        <tr>
+          <td>email_adresse</td>
+          <td>Die E-Mail-Adresse des Leads</td>
+        </tr>
+        <tr>
+          <td>vor_name</td>
+          <td>Der Vorname des Leads, falls angegeben</td>
+        </tr>
+        <tr>
+          <td>nachname</td>
+          <td>Der Nachname des Leads, falls angegeben</td>
+        </tr>
+        <tr>
+          <td>business_Telefon</td>
+          <td>Die Telefonnummer des Leads, falls angegeben</td>
+        </tr>
+        <tr>
+          <td>Land</td>
+          <td>Das Land des Vorsprung, falls vorhanden</td>
+        </tr>
+        <tr>
+          <td>firma_name</td>
+          <td>Das Unternehmen des Leads, falls angegeben</td>
+        </tr>
+        <tr>
+          <td>Industrie</td>
+          <td>Die Branche, zu der der Lead gehört, wenn sie bereitgestellt wird</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</article>
+
+<!-- complete bootstrap layout -->
+    </div>
+    <div class="col-sm-2 right-side-bar">
+      
+      <nav class="right-side-nav" id="right_side_nav">
+        <h6 class="toc">Inhalt der Seite</h6>
+        <ul id="in_page_nav" class="list-none"></ul>
+      </nav>
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+<div class="last-updated">
+  Seite zuletzt aktualisiert am 13 Okt. 2020
+</div>
+
+
+<footer class="bcls-footer" role="contentinfo">
+  <div class="row">
+    <div class="region region-footer-top-center col-md-12">
+      <nav role="navigation" aria-labelledby="block-brightcovesupport-menu" id="block-brightcovesupport" class="footer-menu">
+
+        <h2>Brightcove Support-Service</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://status.brightcove.com">Systemstatus</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com/s/login/?">Kontakt mit dem Support</a>
+          </li>
+          <li>
+            <a href="https://support.brightcove.com/">DOKUMENTATION</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-training-menu" id="block-training" class="footer-menu">
+
+        <h2>Schulungen</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://studio.support.brightcove.com/training/online-training-courses.html">Online-Kurse</a>
+          </li>
+          <li>
+            <a href="https://studio.support.brightcove.com/training/register-training.html">Für einen Kurs anmelden</a>
+          </li>
+          <li>
+            <a href="https://university.brightcove.com/">Brightcove Universität</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-brightcove-menu" class="footer-menu">
+
+        <h2>Brightcove</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://www.brightcove.com">brightcove.com</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com/s/login/?">Kontaktiere uns</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+    <div class="region region-footer-bottom-center col-md-12">
+      <div class="bcls-copyright footer-menu">
+        <table>
+          <tr>
+            <td>
+              <div id="bc_copyright" class="field field--name-field-copyright-year field--type-string field--label-hidden field--item" style="float: left;"> Brightcove Inc. Alle Rechte vorbehalten.</div>
+            </td>
+            <td><a href="https://www.brightcove.com/en/legal/privacy">Privacy</a> | <a href="https://www.brightcove.com/en/terms-and-conditions">Allgemeine Geschäftsbedingungen</a></td>
+            <td>
+              <div class="gf-links-cols footer-menu">
+                <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin"><i class="fab fa-linkedin-in" style="font-size: 1.5rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter"><i class="fab fa-twitter" style="font-size: 1.5rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i class="fab fa-facebook-f" style="font-size: 1.5rem;"></i></a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="talla_wrapper">
+  <p style="text-align: right;position: relative;"><button style="background:rgb(2, 28, 146);color:Snow;padding:.3rem;position:fixed;right:0;bottom:1em;z-index:9999999" onclick="javascript:displayChat()">Fragen? </button> </p>
+  <div id="talla_chat">
+</div>
+</div>
+<script>
+      
+  var searchBox = sajari.init({
+    mode: "search-box",
+    project: "1588255093746585379", // Set this to your project.
+    collection: "brightcove-documenation", // Set this to your collection.
+    instantPipeline: "autocomplete", // Pipeline used as you type
+    inputPlaceholder: "Search", // Input element placeholder
+    maxSuggestions: 5, // Maximum number of suggestions to show
+    attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
+  });
+  
+    searchBox("sub", "pipeline.search-sent", function (_, query) {
+      window.location = "/search.html?q=" + encodeURIComponent(query.q);
+    });
+  
+
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/https-fix.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/setDate.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/prism.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/tabs.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/toc.js"></script>
+  <script src="/assets/js/sites_nav.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/bcls-utils.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/local-link-fix.js"></script>
+  <script src="/assets/js/feedback.js"></script>
+  
+  <script src="/assets/js/sajari-search-foot.js"></script>
+  
+  <!-- <script src="/assets/js/sajari-index.js"></script> -->
+  <script src="https://assets.talla.com/latest/embeddedjs/talla.js"></script>
+  <script src="/assets/js/talla-init.js"></script>
+  <style>
+    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
+      background-color: lightblue;
+    }
+    div.sj-tabs__tab {
+      margin-top: 3rem;
+      margin-left: .3rem;
+      border-top-left-radius: .4rem;
+      border-top-right-radius: .4rem;
+      background-color:#e8e8e8;
+    }
+
+    div.sj-tabs__tab.sj-tabs__tab--selected {
+      border-bottom-color: crimson;
+      background-color: #f8f8f8;
+    }
+
+    p.sj-results__result__description.css-p9jvyt {
+      font-size: 1rem;
+    }
+
+    .sj-result__text.css-31l7gp h3 {
+      color: navy;
+      font-size: 1.4rem;
+    }
+    </style>
+
+</body>
+
+</html>

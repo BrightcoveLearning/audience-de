@@ -1,0 +1,297 @@
+[
+  {
+      "newURL": "https://audience.support.brightcove.com/404.html",
+      "oldURL": "/404"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/audience-faq.html",
+      "oldURL": "/audience-faq"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/audience-fields-and-data-definitions.html",
+      "oldURL": "/audience-fields-and-data-definitions"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/get-started/audience-training-videos.html",
+      "oldURL": "/audience-training-videos"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/support/brightcove-answer.html",
+      "oldURL": "/brightcove-answer"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/configuring-audience-settings.html",
+      "oldURL": "/configuring-audience-settings"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/support/contact-sales.html",
+      "oldURL": "/contact-sales"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/creating-audience-enabled-player.html",
+      "oldURL": "/creating-audience-enabled-player"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/creating-audience-lead-form.html",
+      "oldURL": "/creating-audience-lead-form"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/non-map/creating-custom-integrations-audience-module.html",
+      "oldURL": "/creating-custom-integrations-audience-module"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/creating-custom-lead-forms-hubspot.html",
+      "oldURL": "/creating-custom-lead-forms-hubspot"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/marketo/creating-custom-lead-forms-marketo.html",
+      "oldURL": "/creating-custom-lead-forms-marketo"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/eloqua/creating-custom-lead-forms-oracle-eloqua.html",
+      "oldURL": "/creating-custom-lead-forms-oracle-eloqua"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/salesforce/creating-custom-lead-forms-salesforce.html",
+      "oldURL": "/creating-custom-lead-forms-salesforce"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/salesforce/creating-salesforce-object-pardot.html",
+      "oldURL": "/creating-salesforce-object-pardot"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/eloqua/eloqua-integration-testing-guide.html",
+      "oldURL": "/eloqua-integration-testing-guide"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/eloqua/embedding-video-cloud-video-eloqua-landing-page.html",
+      "oldURL": "/embedding-video-cloud-video-eloqua-landing-page"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/admin/exporting-audience-data-audience-module.html",
+      "oldURL": "/exporting-audience-data-audience-module"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/admin/exporting-gallery-lead-data.html",
+      "oldURL": "/exporting-gallery-lead-data"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/get-started/getting-started-audience-module.html",
+      "oldURL": "/getting-started-audience-module"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/how-audience-module-identifies-viewers.html",
+      "oldURL": "/how-audience-module-identifies-viewers"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/hubspot-rest-api-integration-testing-guide.html",
+      "oldURL": "/hubspot-rest-api-integration-testing-guide"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/icons.html",
+      "oldURL": "/icons"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/eloqua/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/get-started/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/admin/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/support/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/develop/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/non-map/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/salesforce/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/non-map/integrating-audience-single-sign.html",
+      "oldURL": "/integrating-audience-single-sign"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/integrating-video-cloud-hubspot-using-client-side-apis.html",
+      "oldURL": "/integrating-video-cloud-hubspot-using-client-side-apis"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html",
+      "oldURL": "/integrating-video-cloud-hubspot-using-rest-apis"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/marketo/integrating-video-cloud-marketo-using-munchkin.html",
+      "oldURL": "/integrating-video-cloud-marketo-using-munchkin"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/marketo/integrating-video-cloud-marketo-using-rest-apis.html",
+      "oldURL": "/integrating-video-cloud-marketo-using-rest-apis"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/eloqua/integrating-video-cloud-oracle-eloqua.html",
+      "oldURL": "/integrating-video-cloud-oracle-eloqua"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/salesforce/integrating-video-cloud-salesforce.html",
+      "oldURL": "/integrating-video-cloud-salesforce"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/admin/managing-viewer-data.html",
+      "oldURL": "/managing-viewer-data"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/marketo/marketo-rest-integration-testing-guide.html",
+      "oldURL": "/marketo-rest-integration-testing-guide"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/support/online-training-courses.html",
+      "oldURL": "/online-training-courses"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/support/opening-case-with-brightcove-support.html",
+      "oldURL": "/opening-case-with-brightcove-support"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/develop/overview-audience-api.html",
+      "oldURL": "/overview-audience-api"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/publishing-video-email-using-audience-module.html",
+      "oldURL": "/publishing-video-email-using-audience-module"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/develop/reference.html",
+      "oldURL": "/reference"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/support/register-training.html",
+      "oldURL": "/register-training"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/search.html",
+      "oldURL": "/search"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/admin/troubleshooting-audience-issues.html",
+      "oldURL": "/troubleshooting-audience-issues"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/non-map/using-audience-module-track-viewers.html",
+      "oldURL": "/using-audience-module-track-viewers"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/using-custom-metrics-and-events.html",
+      "oldURL": "/using-custom-metrics-and-events"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/support/viewing-brightcove-system-status-page.html",
+      "oldURL": "/viewing-brightcove-system-status-page"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/viewing-player-events-audience-module.html",
+      "oldURL": "/viewing-player-events-audience-module"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/viewing-video-activity.html",
+      "oldURL": "/viewing-video-activity"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/viewing-viewer-profile-information.html",
+      "oldURL": "/viewing-viewer-profile-information"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/working-utm-fields-audience-module.html",
+      "oldURL": "/working-utm-fields-audience-module"
+  },
+]
+

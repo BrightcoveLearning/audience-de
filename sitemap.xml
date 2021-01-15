@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://support.brightcove.com/site-assets/css/site/sitemap.css"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+      <url>
+        <loc>https://audience.support.brightcove.com/index.html</loc>
+        <lastmod>2020-11-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+      </url>
+      
+    
+      <url>
+        <loc>https://audience.support.brightcove.com/get-started/index.html</loc>
+        <lastmod>2020-11-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+      </url>
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/get-started/getting-started-audience-module.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/get-started/audience-training-videos.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+    
+      <url>
+        <loc>https://audience.support.brightcove.com/general/index.html</loc>
+        <lastmod>2020-11-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+      </url>
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/general/audience-fields-and-data-definitions.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/general/configuring-audience-settings.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/general/creating-audience-enabled-player.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/general/creating-audience-lead-form.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/general/how-audience-module-identifies-viewers.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/general/publishing-video-email-using-audience-module.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/general/using-custom-metrics-and-events.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/general/viewing-player-events-audience-module.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/general/viewing-video-activity.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/general/viewing-viewer-profile-information.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/general/working-utm-fields-audience-module.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+    
+      <url>
+        <loc>https://audience.support.brightcove.com/integrations/index.html</loc>
+        <lastmod>2020-11-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+      </url>
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/integrations/eloqua/index.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/eloqua/creating-custom-lead-forms-oracle-eloqua.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/eloqua/eloqua-integration-testing-guide.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/eloqua/embedding-video-cloud-video-eloqua-landing-page.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/eloqua/integrating-video-cloud-oracle-eloqua.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/integrations/hubspot/index.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/hubspot/creating-custom-lead-forms-hubspot.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/hubspot/hubspot-rest-api-integration-testing-guide.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/hubspot/integrating-video-cloud-hubspot-using-client-side-apis.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/integrations/marketo/index.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/marketo/creating-custom-lead-forms-marketo.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/marketo/integrating-video-cloud-marketo-using-munchkin.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/marketo/integrating-video-cloud-marketo-using-rest-apis.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/marketo/marketo-rest-integration-testing-guide.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/integrations/non-map/index.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/non-map/creating-custom-integrations-audience-module.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/non-map/integrating-audience-single-sign.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/non-map/using-audience-module-track-viewers.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/integrations/salesforce/index.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/salesforce/creating-custom-lead-forms-salesforce.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/salesforce/creating-custom-lead-forms-salesforce.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience.support.brightcove.com/integrations/salesforce/integrating-video-cloud-salesforce.html</loc>
+            
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+      
+    
+      <url>
+        <loc>https://audience.support.brightcove.com/admin/index.html</loc>
+        <lastmod>2020-11-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+      </url>
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/admin/exporting-audience-data-audience-module.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/admin/exporting-gallery-lead-data.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/admin/managing-viewer-data.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/admin/troubleshooting-audience-issues.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+    
+      <url>
+        <loc>https://audience.support.brightcove.com/develop/index.html</loc>
+        <lastmod>2020-11-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+      </url>
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/develop/overview-audience-api.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/develop/reference.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+    
+      <url>
+        <loc>https://audience.support.brightcove.com/support/index.html</loc>
+        <lastmod>2020-11-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+      </url>
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/support/brightcove-answer.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/support/viewing-brightcove-system-status-page.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/support/contact-sales.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+        <url>
+          
+            <loc>https://audience.support.brightcove.com/support/opening-case-with-brightcove-support.html</loc>
+          
+            <lastmod>2020-11-30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+      
+    
+
+</urlset>
