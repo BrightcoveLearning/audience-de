@@ -1,0 +1,612 @@
+﻿<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  
+  <title>Fehlerbehebung bei</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">  
+  <link data-react-helmet="true" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&amp;display=swap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/prism.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/styles.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/landing-page.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/tabs.css">
+  <link rel="stylesheet" href="/assets/css/local.css">
+  <link data-react-helmet="true" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&display=swap">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/381443caa8.js" crossorigin="anonymous"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/google-analytics.js"></script>
+  <script src="/assets/js/sajari-head.js"></script>
+</head>
+
+<body class="body">
+
+<header>
+  <div class="div-header">
+    <a href="/"><span class="product-logo" style="font-family:'Balto Web','Public Sans';font-size:2em;font-weight:bold;">BRIGHTCOVE ZIELGRUPPE<sup>™</sup></span></a>
+<!-- GTranslate: https://gtranslate.io/ -->
+<select onchange="doGTranslate(this);"><option value="">Sprache wählen</option><option value="en|en" translate="No">English</option><option value="en|zh-TW" translate="No">繁體中文</option><option value="en|fr" translate="No">Français</option><option value="en|de" translate="No">Deutsche</option><option value="en|ja" translate="No">日本語</option><option value="en|ko" translate="No">한국어</option><option value="en|es" translate="No">Español</option></select>
+
+<script>
+/* <![CDATA[ */
+function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+/* ]]> */
+</script>
+
+    
+
+
+    <span class="secondary-nav"><a href="https://supportportal.brightcove.com/s/login/?"><img src="https://support.brightcove.com/site-assets/images/site/support.png" alt="Support"/> Kontaktieren Sie Support</a> <span style="vertical-align: top;margin-left:1em;margin-right:1em;">|</span> <a href="https://status.brightcove.com/"><img src="https://support.brightcove.com/site-assets/images/site/status.png" alt="Systemstatus"/> Systemstatus</a></span> <br/>
+    
+  </div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb arr-right">
+      
+      <li class="breadcrumb-item"><a href="/">Nach Hause</a></li>
+      
+      
+      
+      <li class="breadcrumb-item"><a href="/admin/">Administration der Zielgruppe</a></li>
+      
+      <li class="breadcrumb-item active" aria-current="page">Fehlerbehebung bei</li>
+    </ol>
+  </nav>
+</header>
+<div class="container">
+    <div class="row">
+            <div class="col-sm-3 left-side-bar">
+        <select id="site_select" class="bcls-select" style="margin-right: 1rem;">
+          <option value="">Weitere Brightcove Docs</option>
+          
+            
+              <option value="https://support.brightcove.com">Dokumentation Home</option>
+            
+          
+            
+              <option value="https://audience.support.brightcove.com">Brightcove Publikum</option>
+            
+          
+            
+              <option value="https://beacon.support.brightcove.com">Brightcove Leuchtfeuer</option>
+            
+          
+            
+              <option value="https://campaign.support.brightcove.com">Brightcove Kampagne</option>
+            
+          
+            
+              <option value="https://engage.support.brightcove.com">Brightcove Engage</option>
+            
+          
+            
+              <option value="https://live.support.brightcove.com">Brightcove Live</option>
+            
+          
+            
+              <option value="https://gallery.support.brightcove.com">Brightcove Gallery</option>
+            
+          
+            
+              <option value="https://ssai.support.brightcove.com">Brightcove SSAI</option>
+            
+          
+            
+              <option value="https://social.support.brightcove.com">Brightcove Social</option>
+            
+          
+            
+              <option value="https://studio.support.brightcove.com">Video Cloud Studio</option>
+            
+          
+            
+              <option value="https://player.support.brightcove.com">Brightcove Spieler-Entwicklung</option>
+            
+          
+            
+              <option value="https://apis.support.brightcove.com">APIs für Video Cloud-Plattform</option>
+            
+          
+            
+              <option value="https://sdks.support.brightcove.com">Videocloud-Geräte-SDKs</option>
+            
+          
+            
+              <option value="https://integrations.support.brightcove.com">Integrationen und CMS-Konnektoren</option>
+            
+          
+            
+              <option value="https://general.support.brightcove.com">Video Cloud — Allgemeine Informationen</option>
+            
+          
+            
+              <option value="https://zencoder.support.brightcove.com">Zencoder</option>
+            
+          
+        </select>
+
+        <nav class="sidenav">
+          
+            
+            <h5><a href="/index.html">Nach Hause</a></h5>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/get-started/index.html">Erste Schritte <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/get-started/getting-started-audience-module.html">Erste Schritte mit Audience</a></li>
+                  
+                
+                  
+                    <li><a href="/get-started/audience-training-videos.html">Schulungsvideos Publikum</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/general/index.html">Allgemeine Informationen <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/general/audience-fields-and-data-definitions.html">Zielgruppenfelder und Datendefinitionen</a></li>
+                  
+                
+                  
+                    <li><a href="/general/configuring-audience-settings.html">Konfigurieren von Zielgruppen</a></li>
+                  
+                
+                  
+                    <li><a href="/general/creating-audience-enabled-player.html">Erstellen eines für Audience aktivierten Player</a></li>
+                  
+                
+                  
+                    <li><a href="/general/creating-audience-lead-form.html">Erstellen eines Audience Lead-Formulars</a></li>
+                  
+                
+                  
+                    <li><a href="/general/how-audience-module-identifies-viewers.html">Wie Zielgruppe Viewer identifiziert</a></li>
+                  
+                
+                  
+                    <li><a href="/general/publishing-video-email-using-audience-module.html">Veröffentlichen eines Videos per E-Mail</a></li>
+                  
+                
+                  
+                    <li><a href="/general/using-custom-metrics-and-events.html">Verwenden von benutzerdefinierten Metriken und Ereignissen</a></li>
+                  
+                
+                  
+                    <li><a href="/general/viewing-player-events-audience-module.html">Anzeigen von Spieler-Events</a></li>
+                  
+                
+                  
+                    <li><a href="/general/viewing-video-activity.html">Anzeigen von Videoaktivitäten</a></li>
+                  
+                
+                  
+                    <li><a href="/general/viewing-viewer-profile-information.html">Anzeigen von Viewer-Profilinformationen</a></li>
+                  
+                
+                  
+                    <li><a href="/general/working-utm-fields-audience-module.html">Arbeiten mit UTM-Feldern</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/integrations/index.html">Integrationen <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/integrations/eloqua/index.html"> <strong>Eloqua</strong></a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                        <li><a href="/integrations/eloqua/creating-custom-lead-forms-oracle-eloqua.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
+                        
+                        <li><a href="/integrations/eloqua/eloqua-integration-testing-guide.html">Eloqua Integrationstest Guide</a></li>
+                        
+                        <li><a href="/integrations/eloqua/embedding-video-cloud-video-eloqua-landing-page.html">Einbetten eines Videos auf einer Landingpage</a></li>
+                        
+                        <li><a href="/integrations/eloqua/integrating-video-cloud-oracle-eloqua.html">Integration mit Oracle Eloqua</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/integrations/hubspot/index.html">HubSpot <strong>+</strong></a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                        <li><a href="/integrations/hubspot/creating-custom-lead-forms-hubspot.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
+                        
+                        <li><a href="/integrations/hubspot/hubspot-rest-api-integration-testing-guide.html">HubSpot REST API-Testleitfaden</a></li>
+                        
+                        <li><a href="/integrations/hubspot/integrating-video-cloud-hubspot-using-client-side-apis.html">Integration mit HubSpot (clientseitige APIs)</a></li>
+                        
+                        <li><a href="/integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html">Integration mit HubSpot (REST APIs)</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/integrations/marketo/index.html">Marketo <strong>+</strong></a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                        <li><a href="/integrations/marketo/creating-custom-lead-forms-marketo.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
+                        
+                        <li><a href="/integrations/marketo/integrating-video-cloud-marketo-using-munchkin.html">Integration mit Marketo (Munchkin)</a></li>
+                        
+                        <li><a href="/integrations/marketo/integrating-video-cloud-marketo-using-rest-apis.html">Integration mit Marketo (REST APIs)</a></li>
+                        
+                        <li><a href="/integrations/marketo/marketo-rest-integration-testing-guide.html">Leitfaden zum Testen von Marketo-REST-Integrationen</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/integrations/non-map/index.html">Nicht-Mappe <strong>+</strong></a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                        <li><a href="/integrations/non-map/creating-custom-integrations-audience-module.html">Erstellen benutzerdefinierter Integrationen</a></li>
+                        
+                        <li><a href="/integrations/non-map/integrating-audience-single-sign.html">Integration mit Single Sign-On</a></li>
+                        
+                        <li><a href="/integrations/non-map/using-audience-module-track-viewers.html">Verwenden der Zielgruppe zum Verfolgen von Zuschau</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/integrations/salesforce/index.html">Salesforce <strong>+</strong></a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                        <li><a href="/integrations/salesforce/creating-custom-lead-forms-salesforce.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
+                        
+                        <li><a href="/integrations/salesforce/creating-custom-lead-forms-salesforce.html">Erstellen von Salesforce-Objekt für Pardot</a></li>
+                        
+                        <li><a href="/integrations/salesforce/integrating-video-cloud-salesforce.html">Integration mit Salesforce</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/admin/index.html">Verwaltung von Zielgruppen <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/admin/exporting-audience-data-audience-module.html">Exportieren von Daten aus Zielgruppe</a></li>
+                  
+                
+                  
+                    <li><a href="/admin/exporting-gallery-lead-data.html">Exportieren von Gallery Lead-Daten</a></li>
+                  
+                
+                  
+                    <li><a href="/admin/managing-viewer-data.html">Verwalten von Betrachterdaten</a></li>
+                  
+                
+                  
+                    <li><a href="/admin/troubleshooting-audience-issues.html">Fehlerbehebung bei</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/develop/index.html">Entwickler <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/develop/overview-audience-api.html">Übersicht: Zielgruppen-API</a></li>
+                  
+                
+                  
+                    <li><a href="/develop/reference.html">Publikums-API Referenz</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/support/index.html">unterstützung <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    
+                  
+                
+                  
+                    <li><a href="/support/viewing-brightcove-system-status-page.html">Anzeigen der Seite „Systemstatus von Brightcove“</a></li>
+                  
+                
+                  
+                    <li><a href="/support/contact-sales.html">Kontakt mit dem Vertrieb</a></li>
+                  
+                
+                  
+                    <li><a href="/support/opening-case-with-brightcove-support.html">Einen Supportfall öffnen</a></li>
+                  
+                
+              </ul>
+            
+          
+      </nav>
+    </div>
+    <div class="col-lg-7" style="background-color: white;color: #333333;margin-top: -1em;margin-bottom: -1em;padding-bottom:1em;">
+  <!-- bootstrap layout -->
+
+<p id="bc_veggie_burger_wrapper" style="display: none;"><img id="bc_veggie_burger" src="/assets/images/feather/menu.svg" alt="Menü „Navigation"/></p>
+
+<!-- search bar -->
+<div id="nav-search-box" style="margin-top: 1rem;"></div>
+<!-- in-page navigation for narrow screens -->
+<details class="centered-inpage-nav" id="centered_inpage_nav">
+  <summary><h6 class="toc">Inhalt der Seite</h6></summary>
+  <nav id="centered_toc"></nav>
+  <ul id="centered_in_page_toc" class="list-none"></ul>
+</details>
+<!-- open in new tab/window -->
+<a id="open_new_tab" href="#" target="_blank" style="display: none;"><img src="/assets/images/feather/external-link.svg" alt="in neuem Tab öffnen" style="margin-top:4em;width: 1.5em;"/></a>
+
+
+
+  
+    
+
+
+<article class="bcls-article">
+  <h1>Fehlerbehebung bei</h1>
+  <summary>In diesem Thema erfahren Sie, wie Sie Lead-Formulardaten exportieren, die durch Gallery-Erlebnisse gesammelt wurden.</summary>
+  <section class="bcls-section">
+    <h2 id="logging">Aktivieren der ausführlichen Protokollierung</h2>
+    <p>Wenn Sie die ausführliche Protokollierung aktivieren, können Sie Informationen zur Zielgruppe in der Browserkonsole anzeigen. Dies ist hilfreich, wenn Sie versuchen, Publikums-Probleme zu debuggen. Die ausführliche Protokollierung kann aktiviert werden, indem Sie mit dem Audience-aktivierten Player&nbsp;<code translate="No">bcverbose=1</code> zur URL der Seite hinzufügen oder das Zielgruppen-Plugin mit der <code translate="No">"verbose": true</code> Option konfigurieren:</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Plugin konfigurieren" src="/assets/images/admin/node18487-plugin.png"/></figure>
+    <p>Protokollmeldungen können in der Konsole angezeigt werden.</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Konsole" src="/assets/images/admin/node18487-console.png"/></figure>
+  </section>
+  <section class="bcls-section">
+    <h2 id="leadform">Probleme mit dem Leitformular</h2>
+    <p>Im Folgenden finden Sie einige häufige Probleme und Fragen, die wir bei Lead-Formularen gesehen haben.</p>
+    <h3>Warum zeigen sich Lead-Formulare auch nach dem Absenden des Formulars weiterhin für die Integration von Marketo Munchkin?</h3>
+    <p>Die Munchkin-Integration hat keine API, mit der wir fragen können, ob der Benutzer bekannt ist oder nicht. Da wir nicht wissen, ob es sich um einen bekannten Benutzer handelt, zeigen wir immer das Lead-Formular an. Die Integration von Marketo REST bietet APIs, damit wir bekannte und unbekannte Benutzer ermitteln können. Der Wechsel zu einer Marketo-REST-Integration wird empfohlen und kann dieses Problem vermeiden.</p>
+    <h3>Mein benutzerdefiniertes Lead-Formular ist so eingestellt, dass es beim Senden umleitet. Warum sehe ich die Seite, auf die nach dem Absenden des Formulars für ein oder zwei Sekunden umgeleitet wird?</h3>
+    <p>Wir müssen warten, bis die Seite, auf die umgeleitet wird, vollständig geladen ist, bevor das Lead-Formular geschlossen wird. Eine Lösung besteht darin, auf eine Seite umzuleiten, die leichtgewichtig ist (nicht viele Bilder oder JavaScript hat), oder auf <code translate="No">https://map.brightcove.com/lead/complete</code> die leere Seite, die wir speziell eingerichtet haben, um dieses Problem zu beheben.</p>
+    <h3>Ich habe mein Lead-Formular mit Bestätigungs-HTML konfiguriert. Warum sehe ich nach der Einreichung für ein paar Sekunden einen schwarzen Bildschirm?</h3>
+    <p>Stellen Sie sicher, dass Sie die Textfarbe des HTML ändern. Der Bestätigungs-HTML-Code ist wahrscheinlich sichtbar, Sie können ihn einfach nicht sehen, da die Standardtextfarbe Schwarz ist.</p>
+    <h3>Warum wird mein HubSpot-Lead-Formular nach der Übermittlung nicht verworfen?</h3>
+    <p>Stellen Sie sicher, dass das Lead-Formular in HubSpot so konfiguriert ist, dass es umgeleitet wird <code translate="No"><strong>http://map.brightcove.com/lead/complete</strong></code>. Wenn Sie eine Bestätigungsmeldung anzeigen möchten, konfigurieren Sie diese in Audience und nicht in HubSpot.</p>
+    <h3>Warum wird mein Lead-Formular nicht angezeigt?</h3>
+    <p>Wenn Ihr Lead-Formular nicht angezeigt wird, stellen Sie zunächst sicher, dass alle Kriterien für die Anzeige eines Lead-Formulars erfüllt sind. Beachten Sie, dass Kriterien, die davon abhängen, dass mehrere Videos angesehen werden, nicht über Seitenaktualisierungen hinweg funktionieren. Sie sind für Anwendungsfälle gedacht, in denen das nächste Video automatisch im selben Player in die Warteschlange gestellt wird.</p>
+    <ol class="bcls-tasklist-restart">
+      <li>Bestätigen Sie, dass das Audience-Plugin dem Player hinzugefügt wurde. Weitere Informationen finden Sie unter <a href="/general/creating-audience-enabled-player.html">Erstellen eines für Audience aktivierten Player</a>.</li>
+      <li>Bestätigen Sie, dass die Integration korrekt eingerichtet wurde und an das Plugin gesendet wird.</li>
+      <li>Bestätige, dass das Lead-Formular diesem Spieler hinzugefügt wurde. Die Antwort auf den Aufruf, den das Plugin für seine Konfiguration durchführt, sollte Informationen zur Anzeige von Leadformularen unter der LeadForm-Eigenschaft enthalten, wenn dem Player ein Lead-Formular hinzugefügt wurde.
+        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="leadform debug" src="/assets/images/admin/node18487-leadform-debug.png"/></figure>
+      </li>
+      <li>Bestätige, dass der Zuschauer noch kein Lead ist. Das Lead-Formular wird nur angezeigt, wenn Audience festgestellt hat, dass der Zuschauer nicht bereits ein Vorsprung in der Marketingautomatisierungsplattform (MAP) ist oder noch kein Lead-Formular ausgefüllt hat. Das Plugin führt einen separaten JSONP-Aufruf an den Audience-Server durch, um zu überprüfen, ob der Zuschauer ein Lead ist. Wenn der Viewer ein Lead ist, antwortet der Server mit dem Status 1 und allen anderen Bezeichnern, die bei der Synchronisierung der Ansichtsdaten mit dem MAP nützlich sein könnten. Wenn der Betrachter kein Lead ist, antwortet der Server mit dem Status 0.
+        <ul>
+          <li>Beispielantwort für einen Betrachter, der kein Lead ist:
+            <pre>
+/**/ typeof jsonPcallback_2935650618 === 'Funktion' &amp;&amp;
+ JsonPcallback_2935650618 ({"status“ :0});</pre>
+          </li>
+          <li>Beispielantwort für einen Betrachter, der ein Lead ist:
+            <pre>
+/**/ typeof jsonPcallback_45936049288 === 'Funktion' &amp;&amp;
+ jsonpCallback_45936049288 ({"status“ :1, "eloqua“: {"contactiD“ :"5", "Internalid“ :"CTCPB0000000005"}});</pre>
+          </li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+  <section class="bcls-section">
+    <h2 id="sync">Probleme synchronisieren</h2>
+    <p>Im Folgenden finden Sie einige häufige Synchronisierungsprobleme, die wir gesehen haben.</p>
+    <h3>Marketo REST-Ansicht-Ereignisse können nicht mit dem Fehler synchronisiert werden Aktivitätstyp-ID '000000' nicht gefunden</h3>
+    <p>Dies geschieht, wenn die mit der Integration verknüpfte benutzerdefinierte Marketo-Aktivität gelöscht wurde. Wenn eine Marketo-REST-Integration erstellt wird, rufen wir die Aktivität ab, speichern ihre ID und verwenden diese ID, um Ereignisse zu synchronisieren. Die Lösung (unter der Annahme, dass eine neue Brightcove Video View-Aktivität erstellt wurde) besteht darin, die Verbindung zu trennen und die Integration neu zu erstellen, um die ID der neuen Aktivität aufzunehmen.</p>
+    <h3>Ereignisse nicht synchronisieren anzeigen</h3>
+    <p>Wenn die Integration korrekt mit einem MAP eingerichtet ist, sollte das Anzeigen von Daten eines Audienzaktivierten Players die Seite „ <strong>Alle aktuellen Aktivitäten</strong> “ auffüllen und Ereignisse anzeigen, die einem bekannten Lead in der jeweiligen MAP entsprechen, sollte schließlich mit dem Tool synchronisiert werden.</p>
+    <p>Stellen Sie zunächst sicher, dass die Ansichtsdaten auf der Seite „ <strong>Alle aktuellen Aktivitäten</strong> “ angezeigt werden:</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Viewer-Aktivität" src="/assets/images/admin/node18487-viewer-activity.png"/></figure>
+    <p>Wenn Ansichtsereignisse aufgelistet sind, aber nicht im MAP enthalten sind, hat der Benutzer möglicherweise Audience mit seinem MAP als Benutzer autorisiert, der nicht über ausreichende Berechtigungen verfügt, um Anzeigedaten über die API in das MAP zu importieren, oder die Integration ist nicht korrekt konfiguriert. Die Zielgruppenseite listet den Status der Synchronisierungsvorgänge für Ereignisse der letzten Ansicht Dort sollte Feedback verfügbar sein, um anzugeben, warum View-Ereignisse nicht mit dem MAP synchronisiert werden.</p>
+    <p>Wenn Ansichtsereignisse in Audience angezeigt werden, überprüfen Sie, ob die Spalte <strong>Status</strong> <strong>synchronisiert</strong>ist. Dies zeigt an, dass Audience die Daten erfolgreich in Ihr MAP liefern konnte. Wenn Sie den Status <strong>unknown_contact</strong> sehen, bedeutet dies, dass der Benutzer nicht bekannt war und Ihr MAP ihn nicht erhalten kann. Die meisten MAPs akzeptieren nur Daten von Drittanbietern für bekannte Benutzer. Die Lösung besteht darin, ein in Ihrem MAP erstelltes benutzerdefiniertes Lead-Formular zu verwenden, um sicherzustellen, dass Sie tatsächlich ein bekannter Benutzer sind.</p>
+    <p>Wenn Anzeigeereignisse nicht aufgeführt sind, wurde die Zielgruppe möglicherweise nicht mit einem für Zielgruppen aktivierten Player eingerichtet. Besuchen Sie mithilfe eines Browsers mit aktivierten Entwicklertools eine Seite, die das problematische Video enthält, und stellen Sie sicher, dass bestimmte HTTP-Aufrufe vom Audience-Plugin getätigt werden.</p>
+    <p>Wenn der Player geladen wird, sollte das Plugin einen Aufruf an den Zielgruppenkonfigurationsendpunkt tätigen, um Parameter zu erhalten, die das Verhalten des Plugins basierend auf der Integration bestimmen:</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Plugin-Konfiguration" src="/assets/images/admin/node18487-debug-config.png"/></figure>
+    <p>Wenn dieser Anruf im Netzwerkverkehr fehlt, bedeutet dies, dass dem Spieler keine Integration zugewiesen wurde. Informationen dazu finden Sie unter <a href="/general/creating-audience-enabled-player.html">Erstellen eines Audience aktivierten Players</a>.</p>
+    <p>Dieser Aufruf wird über JSONP getätigt. Wenn die JSONP-Antwort ein leeres Objekt ist, ist es möglich, dass der Einbettungscode falsch ist und die falsche Konto-ID angegeben ist. Ein leeres Objekt wird von diesem Endpunkt zurückgegeben, wenn die Konfigurationsanforderung nicht sowohl Konto- als auch Player-URL-Parameter enthält oder wenn das angegebene Konto nicht aus der zielgruppenspezifischen Datenbank abgerufen werden konnte (höchstwahrscheinlich wurde das falsche Konto im URL/Einbettungscode angegeben und es wurde nicht im -Datenbank).</p>
+    <pre>
+/**/ typeof jsonPcallback_78754666587 === 'Funktion' &amp;&amp; jsonPcallback_78754666587 ({});</pre>
+    <p>Wenn das Objekt einen ID-Parameter hat, aber ein Integrationsparameter fehlt, hat der Benutzer keine Integration mit seinem Marketing-Automatisierungstool eingerichtet und Ansichtsereignisse werden nicht aufgezeichnet.</p>
+    <p>Sie haben auch Probleme mit der Datensynchronisierung, wenn der Standard Embed (iframe) -Code bei der Veröffentlichung des Audience aktivierten Players verwendet wurde. Verwenden Sie den Advanced Embed (In-Page) -Code, wenn Sie Ihren Player veröffentlichen. Der Code zur Veröffentlichung von Standard Embed (iframe) funktioniert nicht, da das Zielgruppen-Plugin innerhalb eines iFrames ausgeführt wird und daher nicht auf die Cookies oder&nbsp;URL-Parameter der übergeordneten Seite zugreifen kann.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="connection">Probleme bei der Verbindung</h2>
+    <h3>Das Audience-Modul sagt, dass es keine Eloqua-Integration einrichten kann</h3>
+    <p>Prüfen Sie die<a href="/integrations/eloqua/integrating-video-cloud-oracle-eloqua.html#requirements"> Anforderungen für Eloqua</a>. Wenn Sie die Sicherheitsfunktion für IP-Whitelists verwenden, kann Audience nicht mit Eloqua kommunizieren, es sei denn, Sie setzen die angegebenen IP-Adressen auf die weiße Liste, um Audience - Eloqua-Datenverkehr zuzulassen. Weitere Informationen erhalten Sie von <a href="https://supportportal.brightcove.com/s/login/?language=en_US/create">Brightcove Support</a> .</p>
+    <h3>Das Publikum sagt, dass in meiner benutzerdefinierten Aktivität für Marketo REST Felder fehlen, aber wenn ich in Marketo nachschaue, kann ich sehen, dass alle Felder existieren</h3>
+    <p>Es gibt ein paar Dinge zu überprüfen:</p>
+    <ol class="bcls-tasklist-restart">
+      <li>Die Feldnamen müssen genau übereinstimmen. „Event 1" ist nicht dasselbe wie „Event1".</li>
+      <li>Die Aktivität muss genehmigt werden und nicht in einem Entwurfszustand.</li>
+      <li>Wenn Sie die benutzerdefinierte Aktivität gelöscht und neu erstellt haben, ohne eine neue Marketo REST-Integration einzurichten, müssen Sie Ihre alte Integration trennen und eine neue erstellen. Wir suchen nach der benutzerdefinierten Aktivität und speichern ihren ID-Wert für jede Integration. Wenn sich die ID ändert, indem wir sie löschen, können wir die neue nicht automatisch abholen.</li>
+      <li>Wenn der Aktivität kürzlich neue Felder hinzugefügt wurden, kann es bis zu 24 Stunden dauern, bis die Änderung im System von Marketo wirksam wird.</li>
+    </ol>
+  </section>
+</article>
+
+<!-- complete bootstrap layout -->
+    </div>
+    <div class="col-sm-2 right-side-bar">
+      
+      <nav class="right-side-nav" id="right_side_nav">
+        <h6 class="toc">Inhalt der Seite</h6>
+        <ul id="in_page_nav" class="list-none"></ul>
+      </nav>
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+<footer class="bcls-footer" role="contentinfo">  <div class="row">
+    <div class="region region-footer-top-center col-md-12">
+      <nav role="navigation" aria-labelledby="block-brightcovesupport-menu" id="block-brightcovesupport" class="footer-menu">
+
+        <h2>Brightcove Support-Service</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://status.brightcove.com">Systemstatus</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com/s/login/?">Kontakt mit dem Support</a>
+          </li>
+          <li>
+            <a href="https://support.brightcove.com/">DOKUMENTATION</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-training-menu" id="block-training" class="footer-menu">
+
+        <h2>Schulungen</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://studio.support.brightcove.com/training/online-training-courses.html">Online-Kurse</a>
+          </li>
+          <li>
+            <a href="https://studio.support.brightcove.com/training/register-training.html">Für einen Kurs anmelden</a>
+          </li>
+          <li>
+            <a href="https://university.brightcove.com/">Brightcove Universität</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-brightcove-menu" class="footer-menu">
+
+        <h2>Brightcove</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://www.brightcove.com">brightcove.com</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com/s/login/?">Kontaktiere uns</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+    <div class="region region-footer-bottom-center col-md-12">
+      <div class="bcls-copyright footer-menu">
+        <table>
+          <tr>
+            <td>
+              <div id="bc_copyright" class="field field--name-field-copyright-year field--type-string field--label-hidden field--item" style="float: left;"> Brightcove Inc. Alle Rechte vorbehalten.</div>
+            </td>
+            <td><a href="https://www.brightcove.com/en/legal/privacy">Privacy</a> | <a href="https://www.brightcove.com/en/terms-and-conditions">Allgemeine Geschäftsbedingungen</a></td>
+            <td>
+              <div class="gf-links-cols footer-menu">
+                <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin"><i class="fab fa-linkedin-in" style="font-size: 1.5rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter"><i class="fab fa-twitter" style="font-size: 1.5rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i class="fab fa-facebook-f" style="font-size: 1.5rem;"></i></a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+      
+  var searchBox = sajari.init({
+    mode: "search-box",
+    project: "1588255093746585379", // Set this to your project.
+    collection: "brightcove-documenation", // Set this to your collection.
+    instantPipeline: "autocomplete", // Pipeline used as you type
+    inputPlaceholder: "Search", // Input element placeholder
+    maxSuggestions: 5, // Maximum number of suggestions to show
+    attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
+  });
+  
+    searchBox("sub", "pipeline.search-sent", function (_, query) {
+      window.location = "/search.html?q=" + encodeURIComponent(query.q);
+    });
+  
+
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/https-fix.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/setDate.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/prism.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/tabs.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/toc.js"></script>
+  <script src="/assets/js/sites_nav.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/bcls-utils.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/local-link-fix.js"></script>
+  <script src="/assets/js/feedback.js"></script>
+  
+  <script src="/assets/js/sajari-search-foot.js"></script>
+  
+  <!-- <script src="/assets/js/sajari-index.js"></script> -->
+  <style>
+    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
+      background-color: lightblue;
+    }
+    div.sj-tabs__tab {
+      margin-top: 3rem;
+      margin-left: .3rem;
+      border-top-left-radius: .4rem;
+      border-top-right-radius: .4rem;
+      background-color:#e8e8e8;
+    }
+
+    div.sj-tabs__tab.sj-tabs__tab--selected {
+      border-bottom-color: crimson;
+      background-color: #f8f8f8;
+    }
+
+    p.sj-results__result__description.css-p9jvyt {
+      font-size: 1rem;
+    }
+
+    .sj-result__text.css-31l7gp h3 {
+      color: navy;
+      font-size: 1.4rem;
+    }
+    </style>
+
+</body>
+
+</html>
