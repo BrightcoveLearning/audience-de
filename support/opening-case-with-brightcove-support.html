@@ -1,646 +1,123 @@
-﻿<!doctype html>
-<html lang="de">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="In diesem Thema erfahren Sie, wie Sie das Brightcove Support Portal verwenden, um einen Fall mit Brightcove Support zu eröffnen.">
-  
-  <title>Einen Fall mit Brightcove Support eröffnen</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">  
-  <link data-react-helmet="true" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&amp;display=swap">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/prism.css">
-  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/styles.css">
-  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/landing-page.css">
-  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/tabs.css">
-  <link rel="stylesheet" href="/assets/css/local.css">
-  <link data-react-helmet="true" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&display=swap">
-  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/381443caa8.js" crossorigin="anonymous"></script>
-  <script src="https://support.brightcove.com/site-assets/js/site/google-analytics.js"></script>
-  <script src="/assets/js/sajari-head.js"></script>
-</head>
-
-<body class="body">
-
-<header>
-  <div class="div-header">
-    <a href="/"><span class="product-logo" style="font-family:'Balto Web','Public Sans';font-size:2em;font-weight:bold;">BRIGHTCOVE ZIELGRUPPE<sup>™</sup></span></a>
-<!-- GTranslate: https://gtranslate.io/ -->
-<select onchange="doGTranslate(this);"><option value="">Sprache wählen</option><option value="en|en" translate="No">English</option><option value="en|zh-TW" translate="No">繁體中文</option><option value="en|fr" translate="No">Français</option><option value="en|de" translate="No">Deutsche</option><option value="en|ja" translate="No">日本語</option><option value="en|ko" translate="No">한국어</option><option value="en|es" translate="No">Español</option></select>
-
-<script>
-/* <![CDATA[ */
-function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
-/* ]]> */
-</script>
-
-    
-
-
-    <span class="secondary-nav"><a href="https://supportportal.brightcove.com/s/login/?"><img src="https://support.brightcove.com/site-assets/images/site/support.png" alt="Support"/> Kontaktieren Sie Support</a> <span style="vertical-align: top;margin-left:1em;margin-right:1em;">|</span> <a href="https://status.brightcove.com/"><img src="https://support.brightcove.com/site-assets/images/site/status.png" alt="Systemstatus"/> Systemstatus</a></span> <br/>
-    
-  </div>
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb arr-right">
-      
-      <li class="breadcrumb-item"><a href="/">Nach Hause</a></li>
-      
-      
-      
-      <li class="breadcrumb-item"><a href="/support/">unterstützung</a></li>
-      
-      <li class="breadcrumb-item active" aria-current="page">Einen Fall mit Brightcove Support eröffnen</li>
-    </ol>
-  </nav>
-</header>
-<div class="container">
-    <div class="row">
-            <div class="col-sm-3 left-side-bar">
-        <select id="site_select" class="bcls-select" style="margin-right: 1rem;">
-          <option value="">Weitere Brightcove Docs</option>
-          
-            
-              <option value="https://support.brightcove.com">Dokumentation Home</option>
-            
-          
-            
-              <option value="https://audience.support.brightcove.com">Brightcove Publikum</option>
-            
-          
-            
-              <option value="https://beacon.support.brightcove.com">Brightcove Leuchtfeuer</option>
-            
-          
-            
-              <option value="https://campaign.support.brightcove.com">Brightcove Kampagne</option>
-            
-          
-            
-              <option value="https://engage.support.brightcove.com">Brightcove Engage</option>
-            
-          
-            
-              <option value="https://live.support.brightcove.com">Brightcove Live</option>
-            
-          
-            
-              <option value="https://gallery.support.brightcove.com">Brightcove Gallery</option>
-            
-          
-            
-              <option value="https://ssai.support.brightcove.com">Brightcove SSAI</option>
-            
-          
-            
-              <option value="https://social.support.brightcove.com">Brightcove Social</option>
-            
-          
-            
-              <option value="https://studio.support.brightcove.com">Video Cloud Studio</option>
-            
-          
-            
-              <option value="https://player.support.brightcove.com">Brightcove Spieler-Entwicklung</option>
-            
-          
-            
-              <option value="https://apis.support.brightcove.com">APIs für Video Cloud-Plattform</option>
-            
-          
-            
-              <option value="https://sdks.support.brightcove.com">Videocloud-Geräte-SDKs</option>
-            
-          
-            
-              <option value="https://integrations.support.brightcove.com">Integrationen und CMS-Konnektoren</option>
-            
-          
-            
-              <option value="https://general.support.brightcove.com">Video Cloud — Allgemeine Informationen</option>
-            
-          
-            
-              <option value="https://zencoder.support.brightcove.com">Zencoder</option>
-            
-          
-        </select>
-
-        <nav class="sidenav">
-          
-            
-            <h5><a href="/index.html">Nach Hause</a></h5>
-            
-          
-            
-              <h5 class="submenu-header"><a href="/get-started/index.html">Erste Schritte <strong>+</strong></a></h5>
-              <ul class="sidenav-submenu" style="display:none;">
-                
-                  
-                    <li><a href="/get-started/getting-started-audience-module.html">Erste Schritte mit Audience</a></li>
-                  
-                
-                  
-                    <li><a href="/get-started/audience-training-videos.html">Schulungsvideos Publikum</a></li>
-                  
-                
-              </ul>
-            
-          
-            
-              <h5 class="submenu-header"><a href="/general/index.html">Allgemeine Informationen <strong>+</strong></a></h5>
-              <ul class="sidenav-submenu" style="display:none;">
-                
-                  
-                    <li><a href="/general/audience-fields-and-data-definitions.html">Zielgruppenfelder und Datendefinitionen</a></li>
-                  
-                
-                  
-                    <li><a href="/general/configuring-audience-settings.html">Konfigurieren von Zielgruppen</a></li>
-                  
-                
-                  
-                    <li><a href="/general/creating-audience-enabled-player.html">Erstellen eines für Audience aktivierten Player</a></li>
-                  
-                
-                  
-                    <li><a href="/general/creating-audience-lead-form.html">Erstellen eines Audience Lead-Formulars</a></li>
-                  
-                
-                  
-                    <li><a href="/general/how-audience-module-identifies-viewers.html">Wie Zielgruppe Viewer identifiziert</a></li>
-                  
-                
-                  
-                    <li><a href="/general/publishing-video-email-using-audience-module.html">Veröffentlichen eines Videos per E-Mail</a></li>
-                  
-                
-                  
-                    <li><a href="/general/using-custom-metrics-and-events.html">Verwenden von benutzerdefinierten Metriken und Ereignissen</a></li>
-                  
-                
-                  
-                    <li><a href="/general/viewing-player-events-audience-module.html">Anzeigen von Spieler-Events</a></li>
-                  
-                
-                  
-                    <li><a href="/general/viewing-video-activity.html">Anzeigen von Videoaktivitäten</a></li>
-                  
-                
-                  
-                    <li><a href="/general/viewing-viewer-profile-information.html">Anzeigen von Viewer-Profilinformationen</a></li>
-                  
-                
-                  
-                    <li><a href="/general/working-utm-fields-audience-module.html">Arbeiten mit UTM-Feldern</a></li>
-                  
-                
-              </ul>
-            
-          
-            
-              <h5 class="submenu-header"><a href="/integrations/index.html">Integrationen <strong>+</strong></a></h5>
-              <ul class="sidenav-submenu" style="display:none;">
-                
-                  
-                    <li class="submenu-header">
-                      <a href="/integrations/eloqua/index.html"> <strong>Eloqua</strong></a>
-                      <ul class="sidenav-subsubmenu" style="display:none;">
-                        
-                        <li><a href="/integrations/eloqua/creating-custom-lead-forms-oracle-eloqua.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
-                        
-                        <li><a href="/integrations/eloqua/eloqua-integration-testing-guide.html">Eloqua Integrationstest Guide</a></li>
-                        
-                        <li><a href="/integrations/eloqua/embedding-video-cloud-video-eloqua-landing-page.html">Einbetten eines Videos auf einer Landingpage</a></li>
-                        
-                        <li><a href="/integrations/eloqua/integrating-video-cloud-oracle-eloqua.html">Integration mit Oracle Eloqua</a></li>
-                        
-                      </ul>
-                    </li>
-                  
-                
-                  
-                    <li class="submenu-header">
-                      <a href="/integrations/hubspot/index.html">HubSpot <strong>+</strong></a>
-                      <ul class="sidenav-subsubmenu" style="display:none;">
-                        
-                        <li><a href="/integrations/hubspot/creating-custom-lead-forms-hubspot.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
-                        
-                        <li><a href="/integrations/hubspot/hubspot-rest-api-integration-testing-guide.html">HubSpot REST API-Testleitfaden</a></li>
-                        
-                        <li><a href="/integrations/hubspot/integrating-video-cloud-hubspot-using-client-side-apis.html">Integration mit HubSpot (clientseitige APIs)</a></li>
-                        
-                        <li><a href="/integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html">Integration mit HubSpot (REST APIs)</a></li>
-                        
-                      </ul>
-                    </li>
-                  
-                
-                  
-                    <li class="submenu-header">
-                      <a href="/integrations/marketo/index.html">Marketo <strong>+</strong></a>
-                      <ul class="sidenav-subsubmenu" style="display:none;">
-                        
-                        <li><a href="/integrations/marketo/creating-custom-lead-forms-marketo.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
-                        
-                        <li><a href="/integrations/marketo/integrating-video-cloud-marketo-using-munchkin.html">Integration mit Marketo (Munchkin)</a></li>
-                        
-                        <li><a href="/integrations/marketo/integrating-video-cloud-marketo-using-rest-apis.html">Integration mit Marketo (REST APIs)</a></li>
-                        
-                        <li><a href="/integrations/marketo/marketo-rest-integration-testing-guide.html">Leitfaden zum Testen von Marketo-REST-Integrationen</a></li>
-                        
-                      </ul>
-                    </li>
-                  
-                
-                  
-                    <li class="submenu-header">
-                      <a href="/integrations/non-map/index.html">Nicht-Mappe <strong>+</strong></a>
-                      <ul class="sidenav-subsubmenu" style="display:none;">
-                        
-                        <li><a href="/integrations/non-map/creating-custom-integrations-audience-module.html">Erstellen benutzerdefinierter Integrationen</a></li>
-                        
-                        <li><a href="/integrations/non-map/integrating-audience-single-sign.html">Integration mit Single Sign-On</a></li>
-                        
-                        <li><a href="/integrations/non-map/using-audience-module-track-viewers.html">Verwenden der Zielgruppe zum Verfolgen von Zuschau</a></li>
-                        
-                      </ul>
-                    </li>
-                  
-                
-                  
-                    <li class="submenu-header">
-                      <a href="/integrations/salesforce/index.html">Salesforce <strong>+</strong></a>
-                      <ul class="sidenav-subsubmenu" style="display:none;">
-                        
-                        <li><a href="/integrations/salesforce/creating-custom-lead-forms-salesforce.html">Erstellen benutzerdefinierter Lead-Formul</a></li>
-                        
-                        <li><a href="/integrations/salesforce/creating-custom-lead-forms-salesforce.html">Erstellen von Salesforce-Objekt für Pardot</a></li>
-                        
-                        <li><a href="/integrations/salesforce/integrating-video-cloud-salesforce.html">Integration mit Salesforce</a></li>
-                        
-                      </ul>
-                    </li>
-                  
-                
-              </ul>
-            
-          
-            
-              <h5 class="submenu-header"><a href="/admin/index.html">Verwaltung von Zielgruppen <strong>+</strong></a></h5>
-              <ul class="sidenav-submenu" style="display:none;">
-                
-                  
-                    <li><a href="/admin/exporting-audience-data-audience-module.html">Exportieren von Daten aus Zielgruppe</a></li>
-                  
-                
-                  
-                    <li><a href="/admin/exporting-gallery-lead-data.html">Exportieren von Gallery Lead-Daten</a></li>
-                  
-                
-                  
-                    <li><a href="/admin/managing-viewer-data.html">Verwalten von Betrachterdaten</a></li>
-                  
-                
-                  
-                    <li><a href="/admin/troubleshooting-audience-issues.html">Fehlerbehebung bei</a></li>
-                  
-                
-              </ul>
-            
-          
-            
-              <h5 class="submenu-header"><a href="/develop/index.html">Entwickler <strong>+</strong></a></h5>
-              <ul class="sidenav-submenu" style="display:none;">
-                
-                  
-                    <li><a href="/develop/overview-audience-api.html">Übersicht: Zielgruppen-API</a></li>
-                  
-                
-                  
-                    <li><a href="/develop/reference.html">Publikums-API Referenz</a></li>
-                  
-                
-              </ul>
-            
-          
-            
-              <h5 class="submenu-header"><a href="/support/index.html">unterstützung <strong>+</strong></a></h5>
-              <ul class="sidenav-submenu" style="display:none;">
-                
-                  
-                    
-                  
-                
-                  
-                    <li><a href="/support/viewing-brightcove-system-status-page.html">Anzeigen der Seite „Systemstatus von Brightcove“</a></li>
-                  
-                
-                  
-                    <li><a href="/support/contact-sales.html">Kontakt mit dem Vertrieb</a></li>
-                  
-                
-                  
-                    <li><a href="/support/opening-case-with-brightcove-support.html">Einen Supportfall öffnen</a></li>
-                  
-                
-              </ul>
-            
-          
-      </nav>
-    </div>
-    <div class="col-lg-7" style="background-color: white;color: #333333;margin-top: -1em;margin-bottom: -1em;padding-bottom:1em;">
-  <!-- bootstrap layout -->
-
-<p id="bc_veggie_burger_wrapper" style="display: none;"><img id="bc_veggie_burger" src="/assets/images/feather/menu.svg" alt="Menü „Navigation"/></p>
-
-<!-- search bar -->
-<div id="nav-search-box" style="margin-top: 1rem;"></div>
-<!-- in-page navigation for narrow screens -->
-<details class="centered-inpage-nav" id="centered_inpage_nav">
-  <summary><h6 class="toc">Inhalt der Seite</h6></summary>
-  <nav id="centered_toc"></nav>
-  <ul id="centered_in_page_toc" class="list-none"></ul>
-</details>
-<!-- open in new tab/window -->
-<a id="open_new_tab" href="#" target="_blank" style="display: none;"><img src="/assets/images/feather/external-link.svg" alt="in neuem Tab öffnen" style="margin-top:4em;width: 1.5em;"/></a>
-
-
-
-  
-    
-
-
+---
+title: Öffnen eines Falls mit Brightcove-Support
+description: 'In diesem Thema erfahren Sie, wie Sie mithilfe des Brightcove-Supportportals einen Fall beim Brightcove-Support eröffnen.'
+parent: Support
+---
+ 
 <!-- 
   This content appears on all sites!
   
   If you update in one place, you MUST update it in all!
  -->
 
-<h1>Einen Fall mit Brightcove Support eröffnen</h1>
+<h1>{{ page.title }}</h1>
 <article class="bcls-article">
-  <summary>In diesem Thema erfahren Sie, wie Sie das Brightcove Support Portal verwenden, um einen Fall mit Brightcove Support zu eröffnen.</summary>
+  <summary>{{ page.description }}</summary>
   <section class="bcls-section">
-    <p>Brightcove bietet eine Vielzahl von Supportprogrammen an, um den Bedürfnissen unserer Kunden gerecht zu werden. Informationen zu diesen Programmen finden Sie im <a href="https://www.brightcove.com/en/services/customer-support">Abschnitt Brightcove Support</a> auf unserer Website.</p>
-    <p>Eine Supportoption ist das Support-Portal, mit dem ein Fall mit Brightcove Support eröffnet werden kann</p>
+    <p>Brightcove bietet eine Vielzahl von Supportprogrammen, um die Anforderungen unserer Kunden zu erfüllen. Informationen zu diesen Programmen finden Sie im <a href="https://www.brightcove.com/en/services/customer-support">Brightcove-Supportbereich</a> unserer Webseite.</p>
+    <p>Eine Support-Option ist das Support-Portal, über das ein Fall beim Brightcove-Support eröffnet werden kann</p>
   </section>
   <section class="bcls-section">
-    <h2 id="create-account">Erstellen eines neuen Supportkontos</h2>
-    <p>Bevor Sie über das Support-Portal Fälle erstellen können, müssen Sie ein Konto erstellen. Gehen Sie folgendermaßen vor um ein neues Konto zu erstellen:</p>
+    <h2 id="create-account">Erstellen eines neuen Support-Kontos</h2>
+    <p>Bevor Sie Fälle über das Support-Portal erstellen können, müssen Sie ein Konto erstellen. Gehen Sie folgendermaßen vor, um ein neues Konto zu erstellen:</p>
     <ol class="bcls-tasklist-restart" style="--s:1">
       <li>Greifen Sie mit einer der folgenden Methoden auf das Support-Portal zu:
         <ul>
-          <li>Klicken Sie im Anwendungsheader auf <strong>SUPPORT Support Support &gt; kontaktieren</strong></li>
+          <li>Klicken Sie in der Kopfzeile der Anwendung auf <strong>SUPPORT &gt; Support kontaktieren</strong></li>
           <li>Gehe zu <a href="https://supportportal.brightcove.com/">https://supportportal.brightcove.com</a></li>
         </ul>
-        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-login.png"/></figure>
+        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-login.png" /></figure>
       </li>
-      <li>Klicken Sie auf „ <strong>Registrieren</strong>“</li>
-      <li>Geben Sie Ihren <strong>Vornamen</strong>, <strong>Nachnamen</strong>, Ihre<strong> E-Mail-Adresse</strong> und <strong>Ihr Passwort ein</strong>. Klicken Sie auf <strong>Submit (Übermitteln)</strong>.
-        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-create-account.png"/></figure>
+      <li>Klicken <strong>Anmeldung</strong>.</li>
+      <li>Geben Sie Ihr <strong>Vorname</strong> , <strong>Nachname</strong>,<strong> Email</strong> und <strong>Passwort</strong>. Klicken <strong>einreichen</strong>.
+        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-create-account.png" /></figure>
       </li>
-      <li>Bestätigen Sie, dass Sie zur Startseite des Brightcove Support Portal-Zugeführt werden.
-        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-home.png"/></figure>
+      <li>Bestätigen Sie, dass Sie zur Startseite des Brightcove-Supportportals weitergeleitet werden.
+        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-home.png" /></figure>
       </li>
     </ol>
   </section>
   <section class="bcls-section">
-    <h2 id="open-case">Einen Supportfall eröffnen</h2>
-    <p>Gehen Sie folgendermaßen vor, um einen Fall mit Brightcove Support über das Supportportal zu öffnen:</p>
+    <h2 id="open-case">Öffnen eines Support-Falls</h2>
+    <p>Gehen Sie folgendermaßen vor, um einen Fall beim Brightcove-Support über das Support-Portal zu öffnen:</p>
     <ol class="bcls-tasklist-restart" style="--s:1">
-      <li>Melden Sie sich unter <a href="https://supportportal.brightcove.com">https://supportportal.brightcove.com</a>beim Brightcove Support Portal an.</li>
-      <li>Klicken Sie im Seitenkopf auf „ <strong>FALL ABSCHICKEN</strong> “.</li>
+      <li>Melden Sie sich beim Brightcove-Supportportal an unter <a href="https://supportportal.brightcove.com">https://supportportal.brightcove.com</a>.</li>
+      <li>Klicken <strong>EINEN FALL EINREICHEN</strong> im Seitenkopf.</li>
       <li>Geben Sie die Fallinformationen ein:
         <ul>
-          <li><strong>Betreff</strong> - Titel des Falles</li>
+          <li><strong>Gegenstand</strong> - Titel des Falls</li>
           <li><strong>Beschreibung</strong> - Beschreibung des Problems, der Frage oder des Problems</li>
-          <li><strong>Vorrang</strong>
+          <li><strong>Priorität</strong>
             <ul>
-              <li><strong>P1</strong> - Kritisch - Verlust eines Brightcove Service oder kritischer Verlust einer signifikanten Veröffentlichungsverfügbarkeit für einen Live-Produktionsplayer</li>
-              <li><strong>P2</strong> - Wichtig - Der Brightcove Service ist betriebsbereit, es gibt jedoch Blockierungsprobleme in Bezug auf die erwarteten Veröffentlichungsfunktionen, die für einen Live-Produktionsplayer spezifisch sind (dh in Bezug auf Uploads, Konsolenaktivitäten, bestimmte Player).</li>
-              <li><strong>P3</strong> - Normal - Anfragen, die nicht als Kritisch oder Wichtig definiert sind (einschließlich Anfragen nach Konto-/Benutzeränderungen)</li>
+              <li><strong>P1</strong> - Kritisch – Verlust eines Brightcove-Dienstes oder kritischer Verlust einer erheblichen Veröffentlichungsverfügbarkeit für einen Live-Produktionsplayer</li>
+              <li><strong>P2</strong> - Wichtig - Der Brightcove-Dienst ist betriebsbereit, es gibt jedoch Blockierungsprobleme in Bezug auf erwartete Veröffentlichungsfunktionen, die für einen Live-Produktionsplayer spezifisch sind (dh in Bezug auf Uploads, Konsolenaktivitäten, bestimmte Player).</li>
+              <li><strong>P3</strong> - Normal - Anfragen, die nicht als kritisch oder wichtig definiert sind (einschließlich Anfragen nach Konto-/Benutzeränderungen)</li>
             </ul>
           </li>
           <li><strong>Produkt</strong> - Die Brightcove-Anwendung, auf die sich die Supportanfrage bezieht</li>
-          <li><strong>Brightcove Account - Kontoname</strong> , auf den sich die Supportanfrage bezieht</li>
+          <li><strong>Brightcove-Konto</strong> - Kontoname, auf den sich die Supportanfrage bezieht</li>
           <li><strong>URL</strong> - Seiten-URL, auf der das Problem beobachtet werden kann (falls verfügbar)</li>
-          <li><strong>Zusätzlicher CC</strong> - Zusätzlich zur standardmäßigen CC-Liste können Sie entscheiden, zusätzliche E-Mail-Adressen von Mitarbeitern hinzuzufügen, die über den Fallfortschritt informiert werden sollen</li>
+          <li><strong>Zusätzliche CC</strong> - Zusätzlich zur standardmäßigen CC-Liste können Sie zusätzliche E-Mail-Adressen von Mitarbeitern hinzufügen, die über den Fallfortschritt informiert werden sollen</li>
         </ul>
-        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-create-case.png"/></figure>
+        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-create-case.png" /></figure>
       </li>
-      <li>Klicken Sie auf <strong>Submit (Übermitteln)</strong>. Die Falldetails werden angezeigt.
-        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-case-details.png"/></figure>
+      <li>Klicken <strong>einreichen</strong>. Die Falldetails werden angezeigt.
+        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-case-details.png" /></figure>
       </li>
-      <li>Klicke auf „ <strong>Einen neuen Kommentar schreiben...</strong> Link, um zusätzliche Kommentare hinzuzufügen oder einen Screenshot hochzuladen. Detaillierte Schritte zur Reproduktion des Problems und Screenshots des Verhaltens/Problems sind für den Brightcove Support immer hilfreich und können die Zeit verkürzen, die zur Lösung Ihres Falls erforderlich ist.</li>
+      <li>Klicken Sie auf die <strong>Schreibe einen neuen Kommentar...</strong> Link, um zusätzliche Kommentare hinzuzufügen oder einen Screenshot hochzuladen. Detaillierte Schritte zum Reproduzieren des Problems und Screenshots des Verhaltens/Problems sind für den Brightcove-Support immer hilfreich und können die zur Lösung Ihres Falls erforderliche Zeit verkürzen.</li>
     </ol>
   </section>
   <section class="bcls-section">
     <h2 id="view-cases">Anzeigen Ihrer Supportfälle</h2>
-    <p>Alle Supportfälle können einfach im Supportportal eingesehen werden. Der <strong>CASE STATUS</strong> wird einer der folgenden sein:</p>
+		<aside class="bcls-aside bcls-aside--information">Hinweis: Wenn Ihr Support-Portal-Profil <strong>Administrator</strong> , sehen Sie alle Fälle für das Konto (Sie erhalten keine Benachrichtigungen, wenn andere Kontobenutzer Fälle erstellen). Wenn du eine ... bist <strong>Standard</strong> oder selbst registrierter Benutzer, sehen Sie nur die Fälle, die Sie geöffnet haben.&lt;/aside
+        <p>Alle Support-Fälle können einfach im Support-Portal eingesehen werden. Die <strong>FALLSTATUS</strong> wird einer von:</p>
     <ul>
-      <li><strong>Neu</strong> - Case wurde gerade erstellt und wartet auf Brightcove Test</li>
+      <li><strong>Neu</strong> - Fall wurde gerade erstellt und wartet auf Brightcove Review</li>
       <li><strong>Offen</strong> - Fall ist in Bearbeitung</li>
-      <li><strong>Warten auf Ihre Antwort</strong> - Brightcove Support benötigt zusätzliche Informationen oder es wurde eine Lösung bereitgestellt und Brightcove wartet auf eine Antwort</li>
-      <li><strong>Geschlossen</strong> - Fall wurde gelöst</li>
-      <li><strong>Geschlossen erwartet</strong> - Fall wurde geschlossen, da kein Verlag beantwortet wurde. Der Fall wird erneut geöffnet, wenn der Verlag Brightcove kontaktiert</li>
+      <li><strong>Erwarte deine Antwort</strong> - Der Brightcove-Support benötigt zusätzliche Informationen oder es wurde eine Lösung bereitgestellt und Brightcove wartet auf eine Antwort</li>
+      <li><strong>Abgeschlossen</strong> - Fall wurde gelöst</li>
+      <li><strong>Geschlossen in Erwartung</strong> - Fall wurde geschlossen, da der Herausgeber nicht reagierte; Fall wird wieder geöffnet, wenn der Herausgeber Brightcove kontaktiert</li>
     </ul>
-    <p>Gehen Sie folgendermaßen vor, um Ihre Fälle mit Brightcove Support anzuzeigen:</p>
+    		<aside class="bcls-aside bcls-aside--information">Beachten Sie, dass Fälle, die vom Support als Duplikate gelöscht wurden, nicht im Support-Portal erscheinen.</aside>
+    <p>Gehen Sie folgendermaßen vor, um Ihre Fälle beim Brightcove-Support anzuzeigen:</p>
+
     <ol class="bcls-tasklist-restart" style="--s:1">
-      <li>Melden Sie sich unter <a href="https://supportportal.brightcove.com">https://supportportal.brightcove.com</a>beim Brightcove Support Portal an.</li>
-      <li>Klicken Sie im Seitenkopf auf <strong>SUPPORT CASES</strong> . Eine Liste der <strong>offenen Fälle</strong> wird angezeigt.
-        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-case-listing.png"/></figure>
+      <li>Melden Sie sich beim Brightcove-Supportportal an unter <a href="https://supportportal.brightcove.com">https://supportportal.brightcove.com</a>.</li>
+      <li>Klicken <strong>UNTERSTÜTZUNGSFÄLLE</strong> im Seitenkopf. Eine Liste von <strong>Offene Fälle</strong> wird angezeigt.
+        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-portal-case-listing.png" /></figure>
       </li>
-      <li>Klicken Sie auf den Link <strong>Fallverlauf</strong> , um eine Liste der abgeschlossenen Fälle anzuzeigen.</li>
-      <li>Klicken Sie auf eine <strong>Fallnummer</strong> , um die Falldetails einschließlich der Kommentare des Brightcove Supports anzuzeigen.</li>
+      <li>Drücke den <strong>Anamnese</strong> Link, um eine Liste der abgeschlossenen Fälle anzuzeigen.</li>
+      <li>Klicken Sie auf a <strong>Fallnummer</strong> um die Falldetails einschließlich der Kommentare vom Brightcove-Support anzuzeigen.</li>
     </ol>
     <p>Wenn Sie auf eine Spaltenüberschrift klicken, wird die Liste nach dieser Spalte sortiert.</p>
   </section>
   <section class="bcls-section">
     <h2 id="updating">Aktualisieren eines Supportfalls</h2>
-    <p>Sobald der Fall erstellt wurde, sind drei einige Maßnahmen, die Sie ergreifen können, um Ihre Fälle auf dem neuesten Stand zu halten: </p>
+    <p>Nachdem der Fall erstellt wurde, können Sie drei Maßnahmen ergreifen, um Ihre Fälle auf dem neuesten Stand zu halten: </p>
     <ul>
       <li>Fügen Sie neue Kommentare hinzu, um mit unserem Support-Team zu kommunizieren</li>
       <li>Laden Sie Anhänge mit weiteren Informationen hoch oder löschen Sie sie, damit wir das Problem so schnell wie möglich identifizieren können</li>
-      <li>Aktualisieren Sie die Fallpriorität für den Fall, dass Sie mehr Aufmerksamkeit auf einen Fall benötigen oder es dringender wird als ursprünglich erwartet</li>
-      <li>Aktualisieren Sie die CC-Liste, um weitere Beobachter zum Fall hinzuzufügen</li>
-      <li>Beantragen Sie einen Fallabschluss, nachdem Ihr Problem gelöst wurde</li>
+      <li>Aktualisieren Sie die Fallpriorität für den Fall, dass Sie mehr Aufmerksamkeit für einen Fall benötigen oder er dringender wird als ursprünglich erwartet</li>
+      <li>Aktualisieren Sie die CC-Liste, um dem Fall weitere Beobachter hinzuzufügen</li>
+      <li>Fordern Sie die Schließung des Falls an, nachdem Ihr Problem gelöst wurde</li>
     </ul>
   </section>
   <section class="bcls-section">
     <h2 id="update-cc-list">Aktualisieren Ihrer Standard-CC-Liste</h2>
-    <p>Die Standard-CC-Liste ist eine E-Mail-Liste pro Konto, die über alle Fallaktivitäten des Kontos informiert wird. Gehen Sie folgendermaßen vor um die Liste zu aktualisieren:</p>
+    <p>Die Standard-CC-Liste ist eine E-Mail-Liste pro Konto, die über alle Kundenvorgangsaktivitäten des Kontos benachrichtigt wird. Gehen Sie folgendermaßen vor, um die Liste zu aktualisieren:</p>
     <ol class="bcls-tasklist-restart" style="--s:1">
-      <li>Gehe in die obere rechte Ecke und klicke auf das Benutzersymbol.
-        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-account.png"/></figure>
+      <li>Gehen Sie in die obere rechte Ecke und klicken Sie auf das Benutzersymbol.
+        <figure class="bcls-figure"><img alt="" src="https://general.support.brightcove.com/assets/images/support/support-account.png" /></figure>
       </li>
-      <li>Klicken Sie auf <strong>Mein Konto</strong>.</li>
-      <li>Geben Sie die neuen E-Mail-Adressen ein oder entfernen Sie vorhandene Adressen in der <strong>Standard-CC-Liste des Kontos</strong>.</li>
-      <li>Klicken Sie auf <strong>Standard-CC-Liste aktualisieren</strong> , um die Änderungen zu speichern.</li>
+      <li>Klicken <strong>Mein Konto</strong>.</li>
+      <li>Geben Sie die neuen E-Mail-Adressen ein oder entfernen Sie vorhandene Adressen im <strong>Standard-CC-Liste des Kontos</strong>.</li>
+      <li>Klicken <strong>Standard-CC-Liste aktualisieren</strong> um die Änderungen zu speichern.</li>
     </ol>
   </section>
   <section class="bcls-section">
-    <h2 id="view-system-status">Seite „Brightcove System Status“ anzeigen</h2>
-    <p>Brightcove überwacht ständig den Status aller Brightcove Services. Bei einer Serviceunterbrechung erscheint auf der Systemstatusseite ein entsprechender Hinweis. Alle geplanten Wartungshinweise werden ebenfalls veröffentlicht.</p>
-    <p>Um auf die Seite Systemstatus zuzugreifen, melden Sie sich beim Support Portal an und klicken Sie im Seitenkopf auf SYSTEM STATUS oder gehen Sie zu <a href="https://status.brightcove.com/">status.brightcove.com</a>.</p>
-    <p>Weitere Informationen zur Seite „Systemstatus“ finden Sie unter <a href="/support/viewing-brightcove-system-status-page.html">Anzeigen der Seite „Systemstatus von Brightcove“</a>.</p>
+    <h2 id="view-system-status">Anzeigen der Brightcove-Systemstatusseite</h2>
+    <p>Brightcove überwacht kontinuierlich den Status aller Brightcove-Dienste. Bei Unterbrechungen des Dienstes wird ein Hinweis auf der Systemstatusseite veröffentlicht. Alle geplanten Wartungshinweise werden ebenfalls veröffentlicht.</p>
+    <p>Um auf die Seite Systemstatus zuzugreifen, melden Sie sich beim Support-Portal an und klicken Sie in der Kopfzeile der Seite auf SYSTEMSTATUS oder gehen Sie zu <a href="https://status.brightcove.com/">status.brightcove.com</a>.</p>
+    <p>Weitere Informationen zur Seite Systemstatus finden Sie unter <a href="/support/viewing-brightcove-system-status-page.html">Anzeigen der Brightcove-Systemstatusseite</a>.</p>
   </section>
 </article>
-
-<!-- complete bootstrap layout -->
-    </div>
-    <div class="col-sm-2 right-side-bar">
-      
-      <nav class="right-side-nav" id="right_side_nav">
-        <h6 class="toc">Inhalt der Seite</h6>
-        <ul id="in_page_nav" class="list-none"></ul>
-      </nav>
-      
-    </div>
-  </div>
-</div>
-
-<hr>
-<footer class="bcls-footer" role="contentinfo">  <div class="row">
-    <div class="region region-footer-top-center col-md-12">
-      <nav role="navigation" aria-labelledby="block-brightcovesupport-menu" id="block-brightcovesupport" class="footer-menu">
-
-        <h2>Brightcove Support-Service</h2>
-
-        <ul class="menu">
-          <li>
-            <a href="https://status.brightcove.com">Systemstatus</a>
-          </li>
-          <li>
-            <a href="https://supportportal.brightcove.com/s/login/?">Kontakt mit dem Support</a>
-          </li>
-          <li>
-            <a href="https://support.brightcove.com/">DOKUMENTATION</a>
-          </li>
-        </ul>
-
-      </nav>
-      <nav role="navigation" aria-labelledby="block-training-menu" id="block-training" class="footer-menu">
-
-        <h2>Schulungen</h2>
-
-        <ul class="menu">
-          <li>
-            <a href="https://studio.support.brightcove.com/training/online-training-courses.html">Online-Kurse</a>
-          </li>
-          <li>
-            <a href="https://studio.support.brightcove.com/training/register-training.html">Für einen Kurs anmelden</a>
-          </li>
-          <li>
-            <a href="https://university.brightcove.com/">Brightcove Universität</a>
-          </li>
-        </ul>
-
-      </nav>
-      <nav role="navigation" aria-labelledby="block-brightcove-menu" class="footer-menu">
-
-        <h2>Brightcove</h2>
-
-        <ul class="menu">
-          <li>
-            <a href="https://www.brightcove.com">brightcove.com</a>
-          </li>
-          <li>
-            <a href="https://supportportal.brightcove.com/s/login/?">Kontaktiere uns</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-  <div class="row">
-    <div class="region region-footer-bottom-center col-md-12">
-      <div class="bcls-copyright footer-menu">
-        <table>
-          <tr>
-            <td>
-              <div id="bc_copyright" class="field field--name-field-copyright-year field--type-string field--label-hidden field--item" style="float: left;"> Brightcove Inc. Alle Rechte vorbehalten.</div>
-            </td>
-            <td><a href="https://www.brightcove.com/en/legal/privacy">Privacy</a> | <a href="https://www.brightcove.com/en/terms-and-conditions">Allgemeine Geschäftsbedingungen</a></td>
-            <td>
-              <div class="gf-links-cols footer-menu">
-                <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin"><i class="fab fa-linkedin-in" style="font-size: 1.5rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter"><i class="fab fa-twitter" style="font-size: 1.5rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i class="fab fa-facebook-f" style="font-size: 1.5rem;"></i></a>
-                </div>
-              </div>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script>
-      
-  var searchBox = sajari.init({
-    mode: "search-box",
-    project: "1588255093746585379", // Set this to your project.
-    collection: "brightcove-documenation", // Set this to your collection.
-    instantPipeline: "autocomplete", // Pipeline used as you type
-    inputPlaceholder: "Search", // Input element placeholder
-    maxSuggestions: 5, // Maximum number of suggestions to show
-    attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
-  });
-  
-    searchBox("sub", "pipeline.search-sent", function (_, query) {
-      window.location = "/search.html?q=" + encodeURIComponent(query.q);
-    });
-  
-
-</script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="https://support.brightcove.com/site-assets/js/site/https-fix.js"></script>
-  <script src="https://support.brightcove.com/site-assets/js/site/setDate.js"></script>
-  
-  <script src="https://support.brightcove.com/site-assets/js/site/prism.js"></script>
-  
-  <script src="https://support.brightcove.com/site-assets/js/site/site.js"></script>
-  <script src="https://support.brightcove.com/site-assets/js/site/tabs.js"></script>
-  <script src="https://support.brightcove.com/site-assets/js/site/toc.js"></script>
-  <script src="/assets/js/sites_nav.js"></script>
-  <script src="https://support.brightcove.com/site-assets/js/site/bcls-utils.js"></script>
-  <script src="https://support.brightcove.com/site-assets/js/site/local-link-fix.js"></script>
-  <script src="/assets/js/feedback.js"></script>
-  
-  <script src="/assets/js/sajari-search-foot.js"></script>
-  
-  <!-- <script src="/assets/js/sajari-index.js"></script> -->
-  <style>
-    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
-      background-color: lightblue;
-    }
-    div.sj-tabs__tab {
-      margin-top: 3rem;
-      margin-left: .3rem;
-      border-top-left-radius: .4rem;
-      border-top-right-radius: .4rem;
-      background-color:#e8e8e8;
-    }
-
-    div.sj-tabs__tab.sj-tabs__tab--selected {
-      border-bottom-color: crimson;
-      background-color: #f8f8f8;
-    }
-
-    p.sj-results__result__description.css-p9jvyt {
-      font-size: 1rem;
-    }
-
-    .sj-result__text.css-31l7gp h3 {
-      color: navy;
-      font-size: 1.4rem;
-    }
-    </style>
-
-</body>
-
-</html>
